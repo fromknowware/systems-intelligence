@@ -268,7 +268,7 @@ His vision is an AGI that coordinates with human intelligence to solve scientifi
 
 ### Dr. Nick Bostrom (Oxford, Author "Superintelligence")
 
-Dr. Nick Bostrom, a leading voice on existential risk and superintelligence, explored in his seminal work "Superintelligence" what happens when AI surpasses human intelligence. His conclusion is stark, and one I find profoundly unsettling: without coordination, superintelligence is an existential threat.
+Dr. Nick Bostrom, a leading voice on existential risk and superintelligence, explored in his seminal work *Superintelligence* what happens when AI surpasses human intelligence. His conclusion is stark, and one I find profoundly unsettling: without coordination, superintelligence is an existential threat.
 
 He identifies the three bodies of superintelligence risk:
 
@@ -511,7 +511,7 @@ The future of biosignature detection, she concludes, is not just searching for E
 
 ### Liu Cixin (Author "The Three-Body Problem")
 
-Liu Cixin, the brilliant author of "The Three-Body Problem," explored in his novels what happens when civilizations encounter unpredictable complexity. But the deeper theme, I believe, is coordination—or, tragically, the failure of coordination.
+Liu Cixin, the brilliant author of *The Three-Body Problem*, explored in his novels what happens when civilizations encounter unpredictable complexity. But the deeper theme, I believe, is coordination—or, tragically, the failure of coordination.
 
 He presents the three bodies of cosmic civilization:
 
@@ -536,7 +536,7 @@ He speculates on possible coordination architectures:
 *   **Cosmic game theory:** Civilizations coordinate on strategies that benefit all, perhaps through tit-for-tat across millennia and reputation systems spanning civilizations.
 *   **Universal coordination principles:** Mathematical truths that all intelligent species discover, such as π, φ, and fundamental constants, leading to coordination through shared mathematical reality.
 
-His science fiction, while exploring worst-case coordination failure, also hints at possibility. In "Death's End," humanity attempts coordination with the Trisolaran civilization. It fails, but the attempt reveals coordination architecture that *might* work: transparency about capability and intent, mutual vulnerability creating trust, and shared existential threats forcing cooperation.
+His science fiction, while exploring worst-case coordination failure, also hints at possibility. In *Death's End*, humanity attempts coordination with the Trisolaran civilization. It fails, but the attempt reveals coordination architecture that *might* work: transparency about capability and intent, mutual vulnerability creating trust, and shared existential threats forcing cooperation.
 
 The real-world implication, he concludes, is that if we ever encounter alien intelligence, our survival depends on coordination: not military superiority (impossible to guarantee), not isolation (impossible to maintain), but coordination architecture that enables trust despite incomprehensible differences.
 
