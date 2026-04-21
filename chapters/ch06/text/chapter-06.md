@@ -49,7 +49,7 @@ Damasio's diagnosis of AI is precise: every AI system making decisions today is,
 
 ## The Alignment Problem Is a Coordination Problem
 
-Stuart Russell wrote the textbook on AI—literally. His "Artificial Intelligence: A Modern Approach" has trained millions of computer scientists. But his recent work reveals something that changes everything about how we should build AI.
+Stuart Russell wrote the textbook on AI—literally. His *Artificial Intelligence: A Modern Approach* has trained millions of computer scientists. But his recent work reveals something that changes everything about how we should build AI.
 
 Russell's insight is stark: "We've been building AI that's technically brilliant but fundamentally misaligned with human values. Why? Because we're treating alignment as a two-body problem—AI capability and safety constraints—when it's actually a three-body coordination problem."
 
@@ -109,7 +109,7 @@ But the In-Q-Tel PM identifies a structural gap that connects directly to Gebru'
 
 ## The Material Reality of Intelligence
 
-Kate Crawford traced AI back to its physical origins—rare earth mines in Congo, data centers in Iowa, e-waste dumps in Ghana. Her book "Atlas of AI" reveals what we pretend not to see.
+Kate Crawford traced AI back to its physical origins—rare earth mines in Congo, data centers in Iowa, e-waste dumps in Ghana. Her book *Atlas of AI* reveals what we pretend not to see.
 
 Crawford's position challenges the myth of "immaterial" intelligence: "We talk about AI as software, as algorithms, as abstract intelligence. But every AI system coordinates three material bodies: resource extraction, computational infrastructure, and human labor."
 
@@ -138,9 +138,9 @@ It's not computation. It's coordination.
 
 You can have perception without consciousness (sensors detect without understanding). You can have processing without consciousness (algorithms analyze without awareness). But you can't have consciousness without the third body that coordinates perception and processing into understanding.
 
-Roger Penrose, the Nobel laureate mathematician and physicist, makes the most rigorous case for why scaling computation will never produce consciousness. His argument begins with Godel's incompleteness theorem: any sufficiently powerful formal system contains true statements that cannot be proved within that system. A human mathematician can see that these statements are true—can stand outside the formal system and perceive what it cannot prove about itself. A computer program, being a formal system, cannot.
+Roger Penrose, the Nobel laureate mathematician and physicist, makes the most rigorous case for why scaling computation will never produce consciousness. His argument begins with Gödel's incompleteness theorem: any sufficiently powerful formal system contains true statements that cannot be proved within that system. A human mathematician can see that these statements are true—can stand outside the formal system and perceive what it cannot prove about itself. A computer program, being a formal system, cannot.
 
-The argument is recursive. Any algorithm proposed as the explanation of mathematical understanding is itself subject to the Godelian limitation. You cannot escape it by proposing a more sophisticated algorithm, because Godel's theorem applies to that algorithm too. The escape is not a better algorithm. The escape is something that is not an algorithm at all.
+The argument is recursive. Any algorithm proposed as the explanation of mathematical understanding is itself subject to the Godelian limitation. You cannot escape it by proposing a more sophisticated algorithm, because Gödel's theorem applies to that algorithm too. The escape is not a better algorithm. The escape is something that is not an algorithm at all.
 
 This is not a capability gap. It is an architectural gap. Current AI systems, no matter how large, operate within formal systems. Making the system larger does not change this. A larger formal system is still a formal system. The limitation is structural, not quantitative. Penrose's four possible positions on consciousness narrow to one: conscious thought involves non-algorithmic physical processes within the scope of science. Specifically, quantum state reduction in the microtubules of neurons—what he and Stuart Hameroff call Orchestrated Objective Reduction. When quantum superpositions in microtubules reach a critical gravitational threshold, they collapse spontaneously, orchestrated by synaptic inputs. These collapse events are moments of proto-consciousness—non-algorithmic, non-deterministic, non-computable. The evidence from quantum biology has shifted in Penrose's favor: quantum coherence occurs in warm biological systems—photosynthesis, migratory bird navigation, enzyme catalysis. The warm-and-wet objection, while intuitive, has been undermined by experiment.
 
