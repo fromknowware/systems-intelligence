@@ -1020,7 +1020,7 @@ Shows how knowware emergence changes with:
 
 **Optimal coordination satisfies:**
 
-**∂L/∂H = ∂L/∂S = ∂L/∂L = 0**
+**∂L/∂H = ∂L/∂S = ∂L/∂Θ = 0**
 
 (Balance hardware, software, context contributions to knowware)
 
