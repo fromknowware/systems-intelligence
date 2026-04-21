@@ -6,9 +6,9 @@ This book emerged from coordination—not from isolated authorship, but from coo
 
 ## The Cyberneticians (Pioneers of Three-Body Thinking)
 
-**Norbert Wiener**, who saw that intelligence emerges from circular causation, not linear computation. Your "Cybernetics" revealed that feedback loops coordinate to create purposeful behavior. You showed us the pattern before we had the mathematics to prove it.
+**Norbert Wiener**, who saw that intelligence emerges from circular causation, not linear computation. Your *Cybernetics* revealed that feedback loops coordinate to create purposeful behavior. You showed us the pattern before we had the mathematics to prove it.
 
-**Gregory Bateson**, who understood that the pattern which connects is itself a pattern. Your "Mind and Nature" taught us that relationship is primary, entities are secondary. Coordination before components.
+**Gregory Bateson**, who understood that the pattern which connects is itself a pattern. Your *Mind and Nature* taught us that relationship is primary, entities are secondary. Coordination before components.
 
 **Heinz von Foerster**, who gave us second-order cybernetics—the recognition that observers coordinate with observed to create reality. You showed us that objectivity is a coordination pattern, not a god's-eye view.
 
@@ -22,7 +22,7 @@ You saw the coordination pattern in the 1940s-1960s. We forgot. We're rememberin
 
 **Alan Turing**, who asked "Can machines think?" but really asked "Can machines coordinate with humans to create intelligence?" Your imitation game is a coordination test, not a computation test.
 
-**Marvin Minsky**, whose "Society of Mind" showed that intelligence emerges from coordination of simple agents. You saw that mind is coordination before neural networks proved it.
+**Marvin Minsky**, whose *Society of Mind* showed that intelligence emerges from coordination of simple agents. You saw that mind is coordination before neural networks proved it.
 
 **Judea Pearl**, who gave us the Ladder of Causation—showing that intelligence requires coordinating association, intervention, and counterfactuals. You proved that correlation without causation is pattern without understanding.
 
@@ -44,9 +44,9 @@ You saw the coordination pattern in the 1940s-1960s. We forgot. We're rememberin
 
 ## The Systems Thinkers (Understanding Coordination)
 
-**Donella Meadows**, whose "Thinking in Systems" taught millions to see feedback loops and leverage points. You made systems thinking accessible and practical.
+**Donella Meadows**, whose *Thinking in Systems* taught millions to see feedback loops and leverage points. You made systems thinking accessible and practical.
 
-**Peter Senge**, whose "Fifth Discipline" showed that learning organizations coordinate individual learning, team learning, and shared vision. You brought systems thinking to business.
+**Peter Senge**, whose *Fifth Discipline* showed that learning organizations coordinate individual learning, team learning, and shared vision. You brought systems thinking to business.
 
 **Fritjof Capra**, who connected systems thinking with ecology, consciousness, and life itself. You showed us that the systems pattern is universal.
 
