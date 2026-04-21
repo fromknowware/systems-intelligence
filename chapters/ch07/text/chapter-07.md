@@ -10,7 +10,7 @@ In 2019, Autodesk's generative AI designed a partition for an Airbus A320 that w
 
 The design looked alien—organic curves and lattice structures that no human engineer would imagine. It violated every aesthetic principle of traditional aerospace design.
 
-But it worked perfectly because it was optimized for something humans can't do: coordinating structural requirements with manufacturing constraints with material properties to create impossible solutions.
+But it worked perfectly because it was optimized for something humans can't do: coordinating structural requirements, manufacturing constraints, and material properties to create impossible solutions.
 
 **The Generative Design Three-Body System:**
 
@@ -206,7 +206,7 @@ Generative design approach: coordinate three bodies to explore possibilities.
 
 **The Result:**
 
-A bracket that's 40% lighter, 20% stronger, and consolidates 8 parts into 1—impossible with traditional engineering because:
+A bracket that is 40% lighter, 20% stronger, and reduces 8 parts to 1—impossible with traditional engineering because:
 
 - No human would imagine that shape
 
@@ -354,7 +354,7 @@ Second, **Computational Design**, the 'how' layer. This involves algorithms that
 
 Third, **Fabrication Methods**, the reality layer. This includes 3D printing, robotic manufacturing, and material science—what we can actually build, the physical constraints and opportunities, the material reality.
 
-Oxman argues that traditional design fails by separating these elements, optimizing each independently. Her "Silk Pavilion" project beautifully illustrates three-body coordination. Here, silkworms, guided by a computationally designed scaffold, became the fabricators. The biological layer (silkworms spinning silk towards light and heat), the computational layer (algorithms optimizing scaffold geometry), and the fabrication layer (robotic arm building the scaffold, worms completing the structure) coordinated. The result was a structure impossible with any single method, stronger and more efficient than human-built equivalents, and aesthetically organic. This wasn't about controlling the worms, but coordinating with them, allowing form to emerge from the coordination. This material ecology pattern extends to projects like Aguahoja (biodegradable structures from organic waste), Vespers Series (death masks coordinating with synthetic biology), and the Neri Oxman Pavilion (architecture coordinating light, structure, and material). The paradigm shift, as Oxman describes it, is from "form follows function" to "form, function, and fabrication coordinate," leading to living architectures that photosynthesize, adapt, and decompose like nature itself. This is engineering reality: coordinating with nature to create emergence that serves both.
+Oxman argues that traditional design fails by separating these elements, optimizing each independently. Her "Silk Pavilion" project beautifully illustrates three-body coordination. Here, silkworms, guided by a computationally designed scaffold, became the fabricators. The biological layer (silkworms spinning silk towards light and heat), the computational layer (algorithms optimizing scaffold geometry), and the fabrication layer (robotic arm building the scaffold, worms completing the structure) coordinated. The result was a structure impossible with any single method, stronger and more efficient than human-built equivalents, and aesthetically organic. This wasn't about controlling the worms, but about coordinating with them, allowing form to emerge from the coordination. This material ecology pattern extends to projects like Aguahoja (biodegradable structures from organic waste), Vespers Series (death masks coordinating with synthetic biology), and the Neri Oxman Pavilion (architecture coordinating light, structure, and material). The paradigm shift, as Oxman describes it, is from "form follows function" to "form, function, and fabrication coordinate," leading to living architectures that photosynthesize, adapt, and decompose like nature itself. This is engineering reality: coordinating with nature to create emergence that serves both humanity and nature.
 
 ## 7.2 Quantum-Classical Partnership
 
@@ -567,7 +567,7 @@ Weeks identifies three bodies in data center architecture. First, compute—the 
 
 Corning's 175-year history reveals a pattern: glass has always been the coordination medium between an energy source and a human purpose. Edison's bulbs, television tubes, fiber optic cable, Gorilla Glass, and now AI fiber—the specific instantiation changes but the coordination role persists. When Steve Jobs called in 2006 needing damage-resistant glass for the iPhone, Corning pulled a forty-year-old chemically strengthened glass formula from a vault, coordinated it with their fusion draw manufacturing platform, and delivered Gorilla Glass in six months. The capability was waiting for the demand. The same pattern holds with AI: Corning started making optical fiber in 1970, and the AI data center market arrived fifty-five years later. Patient coordination, Weeks argues, means investing in capability when there is no immediate return, maintaining the architecture so that when a new market emerges, the response is ready.
 
-Chip Huyen, author of "Designing Machine Learning Systems," has observed a recurring pattern in her work deploying ML in production: brilliant models developed in notebooks often fail in production because no one coordinated model development with system requirements and operational reality. She outlines three bodies of production ML:
+Chip Huyen, author of *Designing Machine Learning Systems*, has observed a recurring pattern in her work deploying ML in production: brilliant models developed in notebooks often fail in production because no one coordinated model development with system requirements and operational reality. She outlines three bodies of production ML:
 
 First, **Model Development**, the research layer. This involves data scientists training models and optimizing for accuracy metrics—the ML expertise, what gets built.
 
