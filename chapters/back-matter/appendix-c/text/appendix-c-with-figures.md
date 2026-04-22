@@ -3027,7 +3027,7 @@ This appendix provides a comprehensive guide to resources for expanding your coo
 - Twitter/X: @systemsofintel (coordination thinking)
 
 
-- GitHub: github.com/knowware (open-source coordination)
+- GitHub: github.com/fromknowware (open-source coordination)
 
 
 - Discord: discord.gg/knowware (community coordination)

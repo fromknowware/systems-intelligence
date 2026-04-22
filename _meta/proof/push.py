@@ -9,7 +9,7 @@ Usage:
 What it does:
     1. Reads chapters/<section>/text/*-with-figures.md
     2. Rewrites every `../diagrams/png/foo.png` → full Pages URL
-       (https://iamkhayyam.github.io/systemsofintelligence-book/chapters/<section>/diagrams/png/foo.png)
+       (https://fromknowware.github.io/systems-intelligence/chapters/<section>/diagrams/png/foo.png)
     3. If the section has no Proof doc yet → POST /share/markdown (creates a new doc)
        Otherwise → updates the existing doc via /edit/v2 using rewrite.apply-style replacement
     4. Writes the result to _meta/proof/docs.json so subsequent pushes update in place
@@ -23,7 +23,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 DOCS_JSON = ROOT / "_meta" / "proof" / "docs.json"
-PAGES_BASE = "https://iamkhayyam.github.io/systemsofintelligence-book"
+PAGES_BASE = "https://fromknowware.github.io/systems-intelligence"
 PROOF_API = "https://www.proofeditor.ai"
 AGENT = "ai:soi-book-sync"
 
