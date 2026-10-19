@@ -3,14 +3,28 @@
 **Chapter:** Consciousness as Pattern Recognition
 **Status:** 5 diagrams authored as arc_engine graph JSONs
 
+## Audit against the current text (2026-10-19)
+
+The text was rewritten on 2026-04-16 (Wiener, Damasio, Mitchell, In-Q-Tel, Penrose, Sheldrake added). The Cut list entries 'Hot-stove', 'paperclip' and the Open question about the safety driver still stand. New unillustrated arguments: see `_meta/diagram-proposals/README.md`.
+
+| Fig | Class | What was stale | Fix |
+|---|---|---|---|
+| 6.1 | a | Text also argues the disabled factory AEB and the distracted safety driver (not drawn). | No change. |
+| 6.2 | a | Nit: 'Ai' casing in labels (renders upper-case). | No change. |
+| 6.3 | b | The 'fairness-washing' loop (harm -> training data -> fairness) is not argued. The text: accuracy fix + biased deployment -> more efficient surveillance -> wrongful arrests; third body = coordination with social justice. | Loop removed; Technical Accuracy + Biased Deployment -> Surveillance Efficiency -> Disparate Harm; latent Justice Coordination; regenerated. |
+| 6.4 | b | User Demand -> Extraction flywheel is not argued; text argues externalized costs and minimal accountability. | Loop removed; Human Labor, Externalized Costs, latent Material Accountability added; regenerated. Re-anchored to 'extractive industry' paragraph. |
+| 6.5 | a | None. | No change. |
+
+Rows in the table above for revised (class b) figures were regenerated from their graph JSON; notes about those figures that described the old drawings were removed. Full audit: `_meta/diagram-audit.md`.
+
 ## Survivors (5)
 
 | # | Slug | Nodes | Type | Source claim |
 |---|---|---|---|---|
 | 01 | `ch06-01-uber-classification-failure` | 5 (1 latent) | CLD · no loop, 2 confounding | "It could detect her presence... but it lacked the awareness to interpret these patterns as a human being in danger." |
 | 02 | `ch06-02-russell-alignment-loop` | 5 (1 latent) | CLD · B1 (Midas correction via IRL) | "AI that learns to coordinate its capabilities with human values by understanding context." |
-| 03 | `ch06-03-gebru-injustice-amplification` | 5 (1 latent) | CLD · R1 (fairness-washing spiral), 2 confounding | "How does this AI coordinate with existing power structures, and what does that coordination create for the people it affects?" |
-| 04 | `ch06-04-crawford-material-stack` | 5 | CLD · R1 (extraction flywheel) | "Every query... coordinates your question with server farms... with rare earth mines... with underpaid content moderators." |
+| 03 | `ch06-03-gebru-injustice-amplification` | 5 (1 latent) | CLD · no loops, 2 confounding | Gebru's justice problem: a technically fair model (the accuracy gap closed) coordinates with biased deployment in over-policed communities, so the improvement makes surveillance more efficient and wrongful arrests more likely. The missing third body is coordination of technical development with social justice and lived experience. |
+| 04 | `ch06-04-crawford-material-stack` | 6 (1 latent) | CLD · no loops, 1 confounding | Every AI system coordinates three material bodies: resource extraction, computational infrastructure and human labor. The output marketed as 'intelligence' externalizes environmental and social costs; with minimal accountability the machines do exactly what they are told while the human and ecological context is devastated. |
 | 05 | `ch06-05-consciousness-coordination` | 4 | CLD · R1 (consciousness loop) | "Consciousness isn't a feature you add. It's an emergent property of coordination architecture." |
 
 ## Cut
@@ -25,8 +39,6 @@
 
 - **#01 Uber** is intentionally loop-free. The failure is a *missing* feedback arc: awareness never closes back on perception. The latent `Contextual Awareness` node with dashed confounding arcs makes the absence visible.
 - **#02 Russell** is the only balancing loop in the chapter. Inverse reinforcement learning is the corrective arc; `Human Intent` stays latent because IRL only partially identifies it.
-- **#03 Gebru** is the darkest loop — a reinforcing spiral where "fairness" certification launders biased deployment back into training data. Two confounding arcs from `Systemic Inequality` make the non-identifiability explicit.
-- **#04 Crawford** is the only fully identifiable diagram: supply-chain auditability is the whole point of her argument.
 - **#05 Consciousness coordination** is the chapter's synthesis. Kept to 4 nodes deliberately — it's the schematic that the other four diagrams are failure/success instances of.
 - None of the interview files (6.01–6.03) introduce causal structures distinct from what the main chapter already articulates; they elaborate case evidence (Gender Shades numbers, cobalt supply chain, IRL formalism) but reuse the same three-body frames.
 
@@ -34,6 +46,4 @@
 
 - **#01 Uber**: should the human safety driver (Vasquez) appear as a second latent awareness node, or does that dilute the AI-system focus? Current call: omit — the NTSB framing is about AI awareness failure; the driver is a separate layer.
 - **#02 Russell**: Is `Stated Objective` really a mediator or a driver? Modeled as mediator because capability acts *through* it. Revisit if Ch07 reuses the frame.
-- **#03 Gebru**: the R1 loop is only reinforcing *given* the confounding inequality arcs. Without them, `Disparate Harm → Training Data → Technical Fairness` is observationally consistent with a balancing interpretation ("harm triggers audits"). The identifiability note captures this but the loop label is an editorial choice.
-- **#04 Crawford**: worth a DAG variant (`fmt: "both"`) for a print appendix that quantifies the extraction→output coefficients? Left as pure CLD for now.
 - **#05 Consciousness**: this is schematic, not empirical. Flag in caption that it's normative/architectural rather than a claim about any real system.

@@ -1,0 +1,25 @@
+{
+  "id": "proposal-X.3-worked-example-context-panel",
+  "title": "Worked example: the missing context panel",
+  "summary": "An excellent AI tool stalled at 11% adoption: the tool spoke, the user decided, and context was invisible to both. A context panel showing what information was available, what was missing and how confident the tool was made the third body legible. Adoption on that team reached 74% in three weeks; nothing about the tool or the users changed.",
+  "fmt": "both",
+  "source": "ChX — 'A Worked Example' (replaces the Blueprint figure)",
+  "nodes": [
+    { "id": "n1", "label": "AI Tool Output", "description": "Excellent accuracy, arriving decoupled from the work", "category": "driver", "is_latent": false },
+    { "id": "n3", "label": "Shared Context Interface", "description": "Panel showing available information, gaps and confidence", "category": "mediator", "is_latent": false },
+    { "id": "n4", "label": "Adoption", "description": "11% flat, then 74% after three weeks", "category": "outcome", "is_latent": false },
+    { "id": "n2", "label": "User Judgment", "description": "Users decide inside their own workflow", "category": "driver", "is_latent": false },
+    { "id": "n5", "label": "Contextual Coordination", "description": "Handoffs, liability, reputation cost: the ignored third body", "category": "latent", "is_latent": true }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n3", "polarity": "positive", "description": "The tool shows what it knew and did not know", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "positive", "description": "Users see the tool's reasoning in light of the case", "has_delay": false, "is_confounding": false },
+    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Both bodies can now work together", "has_delay": true, "is_confounding": false },
+    { "from": "n5", "to": "n3", "polarity": "positive", "description": "The interface makes the absent third body legible", "has_delay": false, "is_confounding": true },
+    { "from": "n5", "to": "n4", "polarity": "positive", "description": "Its absence explains why better training and mandates failed", "has_delay": false, "is_confounding": true }
+  ],
+  "loops": [
+  ],
+  "identifiability": "identifiable",
+  "identifiability_note": "Single worked example reported by the author; one team, one interface change. Not a statistical claim."
+}

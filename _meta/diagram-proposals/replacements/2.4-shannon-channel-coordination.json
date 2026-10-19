@@ -1,0 +1,25 @@
+{
+  "id": "proposal-2.4-shannon-channel-coordination",
+  "title": "Shannon: sender, channel, receiver",
+  "summary": "Communication is a three-body system, not a pipe: noise is a property of the channel, so sender and receiver must encode and decode around it. Structured redundancy (error-correcting codes shaped to the channel) is the coordination architecture that lets communication survive noise, up to the channel's capacity.",
+  "fmt": "cld",
+  "source": "Ch02 — 'The Bit as Coordination Quantum' (replaces the Game of Life figure)",
+  "nodes": [
+    { "id": "n1", "label": "Sender Encoding", "description": "Encoding chosen for this channel", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Channel Noise", "description": "Bandwidth and noise: the channel's statistical personality", "category": "driver", "is_latent": false },
+    { "id": "n5", "label": "Reliable Communication", "description": "Perfect below channel capacity, destroyed above it", "category": "outcome", "is_latent": false },
+    { "id": "n3", "label": "Receiver Decoding", "description": "Decoding chosen for this channel", "category": "driver", "is_latent": false },
+    { "id": "n4", "label": "Structured Redundancy", "description": "Error-correcting codes shaped to the noise", "category": "mediator", "is_latent": false }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n4", "polarity": "positive", "description": "Sender adds redundancy", "has_delay": false, "is_confounding": false },
+    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Receiver uses it to reconstruct", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n4", "polarity": "positive", "description": "Redundancy is shaped to the channel's noise characteristics", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n5", "polarity": "negative", "description": "Noise destroys information", "has_delay": false, "is_confounding": false },
+    { "from": "n4", "to": "n5", "polarity": "positive", "description": "Redundancy lets sender and receiver coordinate through damage", "has_delay": false, "is_confounding": false }
+  ],
+  "loops": [
+  ],
+  "identifiability": "identifiable",
+  "identifiability_note": "Channel capacity C = B log2(1 + S/N) is a measurable limit; redundancy and noise are both observable. Alternative anchor: Von Neumann section (processor, memory, missing context coordination)."
+}

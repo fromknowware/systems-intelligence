@@ -1,0 +1,24 @@
+{
+  "id": "proposal-6-wiener-anti-aircraft-feedback",
+  "title": "Wiener's predictor: feedback is the third body",
+  "summary": "A gun fired at where the plane was misses again and again. Add feedback, observe the error, adjust, fire again, and the system coordinates with a moving, purposeful target without controlling it. The Uber system lacked exactly this arc closing through awareness.",
+  "fmt": "cld",
+  "source": "Ch06 — Norbert Wiener's anti-aircraft predictor",
+  "nodes": [
+    { "id": "n1", "label": "Target Maneuver", "description": "Pilot evades deliberately, with statistical regularities", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Aim Error", "description": "Distance between shell and plane", "category": "outcome", "is_latent": false },
+    { "id": "n3", "label": "Feedback Correction", "description": "Observe the error and adjust", "category": "feedback", "is_latent": false },
+    { "id": "n4", "label": "Gun Aim", "description": "Where the gun is pointed", "category": "mediator", "is_latent": false }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n2", "polarity": "positive", "description": "A maneuvering target defeats a fixed aim", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "positive", "description": "Larger error produces a larger correction", "has_delay": false, "is_confounding": false },
+    { "from": "n3", "to": "n4", "polarity": "positive", "description": "The correction moves the aim", "has_delay": true, "is_confounding": false },
+    { "from": "n4", "to": "n2", "polarity": "negative", "description": "Better aim, smaller error", "has_delay": false, "is_confounding": false }
+  ],
+  "loops": [
+    { "type": "balancing", "label": "B1 — Cybernetic correction", "nodes": ["n2", "n3", "n4"], "minus_count": 1 }
+  ],
+  "identifiability": "identifiable",
+  "identifiability_note": "Closed measurement loop; removing feedback makes the error persist."
+}

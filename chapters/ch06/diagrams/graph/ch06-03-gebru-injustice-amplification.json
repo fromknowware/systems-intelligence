@@ -1,27 +1,25 @@
 {
   "id": "ch06-03-gebru-injustice-amplification",
   "title": "Gebru: technically fair, socially unjust",
-  "summary": "A 'technically fair' model coordinates with biased deployment patterns in a context of systemic inequality, producing disproportionate lived harm that then re-enters the training data as a reinforcing loop.",
+  "summary": "Gebru's justice problem: a technically fair model (the accuracy gap closed) coordinates with biased deployment in over-policed communities, so the improvement makes surveillance more efficient and wrongful arrests more likely. The missing third body is coordination of technical development with social justice and lived experience.",
   "fmt": "cld",
   "source": "Ch06 — 'How does this AI coordinate with existing power structures, and what does that coordination create for the people it affects?'",
   "nodes": [
-    { "id": "n1", "label": "Technical Fairness",   "description": "Equal error rates on benchmark",  "category": "driver",   "is_latent": false },
-    { "id": "n2", "label": "Deployment Context",   "description": "Policing, surveillance siting",   "category": "mediator", "is_latent": false },
-    { "id": "n3", "label": "Disparate Harm",       "description": "Wrongful arrests, chilling",      "category": "outcome",  "is_latent": false },
-    { "id": "n4", "label": "Training Data",        "description": "Historical records fed back",     "category": "feedback", "is_latent": false },
-    { "id": "n5", "label": "Systemic Inequality",  "description": "Background power structure",      "category": "latent",   "is_latent": true  }
+    { "id": "n1", "label": "Technical Accuracy", "description": "Accuracy gap closed: 65% to 95% on Black faces", "category": "driver", "is_latent": false },
+    { "id": "n3", "label": "Disparate Harm", "description": "Wrongful arrests (Williams, Parks) in over-surveilled communities", "category": "outcome", "is_latent": false },
+    { "id": "n4", "label": "Biased Deployment", "description": "Used by police and governments, concentrated in black and brown neighbourhoods", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Surveillance Efficiency", "description": "More accurate identification of more people", "category": "mediator", "is_latent": false },
+    { "id": "n5", "label": "Justice Coordination", "description": "Technical development coordinated with social context and lived experience", "category": "latent", "is_latent": true }
   ],
   "edges": [
-    { "from": "n1", "to": "n2", "polarity": "positive", "description": "Certified models get deployed",         "has_delay": false, "is_confounding": false },
-    { "from": "n2", "to": "n3", "polarity": "positive", "description": "Biased siting produces disparate harm", "has_delay": false, "is_confounding": false },
-    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Harm events become new training labels","has_delay": true, "is_confounding": false },
-    { "from": "n4", "to": "n1", "polarity": "positive", "description": "Tainted data re-certifies 'fairness'",  "has_delay": true,  "is_confounding": false },
-    { "from": "n5", "to": "n2", "polarity": "positive", "description": "Inequality shapes deployment",          "has_delay": false, "is_confounding": true  },
-    { "from": "n5", "to": "n3", "polarity": "positive", "description": "Inequality shapes who is harmed",       "has_delay": false, "is_confounding": true  }
+    { "from": "n1", "to": "n2", "polarity": "positive", "description": "A more accurate system identifies more people more efficiently", "has_delay": false, "is_confounding": false },
+    { "from": "n4", "to": "n2", "polarity": "positive", "description": "Deployment concentrates the capability on already over-policed communities", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "positive", "description": "Efficient surveillance converts into arrests and wrongful arrests", "has_delay": true, "is_confounding": false },
+    { "from": "n5", "to": "n4", "polarity": "negative", "description": "Coordination with social context would redirect or block deployment", "has_delay": false, "is_confounding": true },
+    { "from": "n5", "to": "n3", "polarity": "negative", "description": "Coordination with lived experience would reduce harm", "has_delay": false, "is_confounding": true }
   ],
   "loops": [
-    { "type": "reinforcing", "label": "R1 — Fairness-washing spiral", "nodes": ["n1","n2","n3","n4"], "minus_count": 0 }
   ],
   "identifiability": "not_identifiable",
-  "identifiability_note": "Systemic inequality is an unobserved common cause of both deployment and harm; the fairness→harm effect is not estimable from deployment data alone."
+  "identifiability_note": "The absent justice coordination (n5) is a common cause of deployment choices and harm; sometimes the coordination analysis concludes that the technology cannot be made just and should not be built."
 }

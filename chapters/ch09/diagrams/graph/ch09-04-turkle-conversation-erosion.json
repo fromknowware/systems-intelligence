@@ -1,24 +1,24 @@
 {
   "id": "ch09-04-turkle-conversation-erosion",
   "title": "Turkle conversation erosion loop",
-  "summary": "Algorithmically-mediated communication trains fragmented attention and lowers tolerance for silence, eroding face-to-face conversation skill. Reduced skill makes in-person interaction less rewarding, driving still more mediated communication — a reinforcing loop Turkle calls the conversation crisis.",
-  "fmt": "cld",
+  "summary": "Technology mediation trains fragmented attention, which erodes the skills of face-to-face conversation and, with them, empathy: Turkle's conversation crisis and empathy deficit. New cultural norms (device-free zones, intentional use) are the missing coordination.",
+  "fmt": "both",
   "source": "Ch09 §9.3 — Turkle interview; \"technology coordinates with our habits in ways that make us worse at human connection.\"",
   "nodes": [
-    { "id": "n1", "label": "Mediated Communication", "description": "Texts, DMs, algorithmic feeds",        "category": "driver",   "is_latent": false },
-    { "id": "n2", "label": "Fragmented Attention",   "description": "Tolerance for sustained focus",        "category": "mediator", "is_latent": false },
-    { "id": "n3", "label": "Conversation Skill",     "description": "Sustained, embodied, vulnerable talk", "category": "mediator", "is_latent": false },
-    { "id": "n4", "label": "Empathy Capacity",       "description": "Perspective-taking, emotional reading","category": "outcome",  "is_latent": false }
+    { "id": "n1", "label": "Mediated Communication", "description": "Texts, calls, feeds, notifications", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Fragmented Attention", "description": "Trained by constant stimulation and speed", "category": "mediator", "is_latent": false },
+    { "id": "n3", "label": "Conversation Skill", "description": "Sustained attention, tolerance for silence, vulnerability", "category": "mediator", "is_latent": false },
+    { "id": "n4", "label": "Empathy Capacity", "description": "Embodied presence and shared discomfort", "category": "outcome", "is_latent": false },
+    { "id": "n5", "label": "Cultural Norms", "description": "Device-free zones, intentional use", "category": "latent", "is_latent": true }
   ],
   "edges": [
-    { "from": "n1", "to": "n2", "polarity": "positive", "description": "Interruptions fragment attention",               "has_delay": false, "is_confounding": false },
-    { "from": "n2", "to": "n3", "polarity": "negative", "description": "Fragmented attention erodes conversation skill", "has_delay": true,  "is_confounding": false },
-    { "from": "n3", "to": "n1", "polarity": "negative", "description": "Weaker skill makes face-to-face less rewarding → more mediated use", "has_delay": true, "is_confounding": false },
-    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Conversation skill builds empathy",              "has_delay": true,  "is_confounding": false }
+    { "from": "n1", "to": "n2", "polarity": "positive", "description": "Mediation trains fragmented attention", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "negative", "description": "Fragmented attention erodes conversation skill", "has_delay": true, "is_confounding": false },
+    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Conversation builds relational resilience and empathy", "has_delay": true, "is_confounding": false },
+    { "from": "n5", "to": "n2", "polarity": "negative", "description": "Norms such as device-free zones protect attention", "has_delay": false, "is_confounding": true }
   ],
   "loops": [
-    { "type": "reinforcing", "label": "R1 — Conversation erosion", "nodes": ["n1","n2","n3"], "minus_count": 2 }
   ],
-  "identifiability": "identifiable",
-  "identifiability_note": "Closed observational loop; no latent confounder modeled. Intervention on mediated-communication exposure would be needed to estimate magnitudes."
+  "identifiability": "not_identifiable",
+  "identifiability_note": "Norms (n5) shape both exposure and attention; the size of the technology effect on empathy cannot be separated from them observationally."
 }

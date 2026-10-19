@@ -1,0 +1,26 @@
+{
+  "id": "proposal-4.4-sidewalk-labs-death-spiral",
+  "title": "Sidewalk Labs: coordination death spiral",
+  "summary": "Fear travels at internet speed; trust builds at relationship speed. When one body (government, private sector or civil society) retreated, it raised fear and eroded trust among the others, accelerating their retreat. The Quayside project collapsed in 2020: coordination is a living system that has to survive politics, fear and time.",
+  "fmt": "both",
+  "source": "Ch04 — 'When Urban Coordination Fails: The Sidewalk Labs Lesson' (replaces the 23andMe figure)",
+  "nodes": [
+    { "id": "n1", "label": "Public Fear", "description": "Fear that spreads at internet speed", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Body Retreat", "description": "One of government, private sector or civil society pulls back", "category": "mediator", "is_latent": false },
+    { "id": "n4", "label": "Project Collapse", "description": "Quayside, 2020", "category": "outcome", "is_latent": false },
+    { "id": "n3", "label": "Civic Trust", "description": "Trust that builds only at relationship speed", "category": "mediator", "is_latent": false },
+    { "id": "n5", "label": "Turbulence-Proof Design", "description": "Coordination designed to survive politics, fear and time", "category": "latent", "is_latent": true }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n2", "polarity": "positive", "description": "Fear prompts a body to retreat", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "negative", "description": "Retreat erodes trust among the remaining bodies", "has_delay": true, "is_confounding": false },
+    { "from": "n3", "to": "n1", "polarity": "negative", "description": "Lost trust leaves more fear", "has_delay": true, "is_confounding": false },
+    { "from": "n2", "to": "n4", "polarity": "positive", "description": "Each retreat pushes the project closer to collapse", "has_delay": true, "is_confounding": false },
+    { "from": "n5", "to": "n2", "polarity": "negative", "description": "Architecture built for turbulence absorbs retreat", "has_delay": false, "is_confounding": true }
+  ],
+  "loops": [
+    { "type": "reinforcing", "label": "R1 — Coordination death spiral", "nodes": ["n1", "n2", "n3"], "minus_count": 2 }
+  ],
+  "identifiability": "not_identifiable",
+  "identifiability_note": "Alternative anchor in the same chapter: Taleb's antifragility triad (system, stressor, feedback/learning). Single-case evidence; the counterfactual Quayside with coordination built for turbulence cannot be observed."
+}

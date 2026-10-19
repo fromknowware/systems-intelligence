@@ -1,30 +1,25 @@
 {
   "id": "ch09-05-raworth-doughnut-overshoot",
   "title": "Raworth doughnut overshoot and shortfall",
-  "summary": "Extractive growth lifts production but simultaneously breaches the ecological ceiling and fails to lift the social foundation. The planetary system pushes back (balancing) only after overshoot becomes severe, by which point the social shortfall persists. Regenerative distribution is the latent coordination layer that would land the economy in the doughnut.",
+  "summary": "GDP growth optimises one metric without coordinating with ecology or wellbeing: it pushes the economy through the ecological ceiling while the social floor stays unmet. Regenerative, distributive economics is the missing coordination layer that would land the economy inside the doughnut.",
   "fmt": "both",
   "source": "Ch09 §9.2 — Raworth interview; \"growth occurs without flourishing.\"",
   "nodes": [
-    { "id": "n1", "label": "Extractive Growth",     "description": "GDP-maximizing production",             "category": "driver",   "is_latent": false },
-    { "id": "n2", "label": "Ecological Overshoot",  "description": "Climate, biodiversity, resource depletion", "category": "mediator", "is_latent": false },
-    { "id": "n3", "label": "Social Shortfall",      "description": "Unmet needs below the social foundation","category": "mediator", "is_latent": false },
-    { "id": "n4", "label": "Planetary Pushback",    "description": "Disasters, scarcity, regulation",       "category": "feedback", "is_latent": false },
-    { "id": "n5", "label": "Human Flourishing",     "description": "Living inside the doughnut",            "category": "outcome",  "is_latent": false },
-    { "id": "n6", "label": "Regenerative Distribution", "description": "Commons, cooperatives, circular flows", "category": "latent", "is_latent": true }
+    { "id": "n1", "label": "GDP Growth", "description": "The single metric current economics optimises", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Ecological Overshoot", "description": "Breaching the planetary ceiling", "category": "mediator", "is_latent": false },
+    { "id": "n4", "label": "Social Shortfall", "description": "Basic needs below the social foundation", "category": "driver", "is_latent": false },
+    { "id": "n3", "label": "Human Flourishing", "description": "Needs met within planetary limits", "category": "outcome", "is_latent": false },
+    { "id": "n5", "label": "Regenerative Distribution", "description": "Worker ownership, commons, circular economy", "category": "latent", "is_latent": true }
   ],
   "edges": [
-    { "from": "n1", "to": "n2", "polarity": "positive", "description": "Extraction breaches ecological ceiling",   "has_delay": true,  "is_confounding": false },
-    { "from": "n1", "to": "n3", "polarity": "positive", "description": "Concentrated growth leaves needs unmet",   "has_delay": false, "is_confounding": false },
-    { "from": "n2", "to": "n4", "polarity": "positive", "description": "Overshoot triggers planetary pushback",    "has_delay": true,  "is_confounding": false },
-    { "from": "n4", "to": "n1", "polarity": "negative", "description": "Pushback caps further extractive growth",  "has_delay": true,  "is_confounding": false },
-    { "from": "n2", "to": "n5", "polarity": "negative", "description": "Overshoot undermines flourishing",         "has_delay": true,  "is_confounding": false },
-    { "from": "n3", "to": "n5", "polarity": "negative", "description": "Shortfall undermines flourishing",         "has_delay": false, "is_confounding": false },
-    { "from": "n6", "to": "n2", "polarity": "negative", "description": "Regenerative distribution curbs overshoot","has_delay": false, "is_confounding": true  },
-    { "from": "n6", "to": "n3", "polarity": "negative", "description": "Regenerative distribution lifts the floor","has_delay": false, "is_confounding": true  }
+    { "from": "n1", "to": "n2", "polarity": "positive", "description": "Growth without regeneration consumes ecological capacity", "has_delay": true, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "negative", "description": "Overshoot undermines the conditions for flourishing", "has_delay": true, "is_confounding": false },
+    { "from": "n4", "to": "n3", "polarity": "negative", "description": "Unmet needs mean no flourishing", "has_delay": false, "is_confounding": false },
+    { "from": "n5", "to": "n2", "polarity": "negative", "description": "A regenerative economy restores ecology", "has_delay": false, "is_confounding": true },
+    { "from": "n5", "to": "n4", "polarity": "negative", "description": "A distributive economy meets needs", "has_delay": false, "is_confounding": true }
   ],
   "loops": [
-    { "type": "balancing", "label": "B1 — Planetary correction", "nodes": ["n1","n2","n4"], "minus_count": 1 }
   ],
   "identifiability": "not_identifiable",
-  "identifiability_note": "Regenerative Distribution (n6) is a latent confounder on both overshoot and shortfall pathways; the marginal effect of extractive growth on flourishing is not estimable without measuring it."
+  "identifiability_note": "Regenerative distribution (n5) is a latent common cause of overshoot and shortfall; the effect of growth alone on flourishing is not estimable."
 }

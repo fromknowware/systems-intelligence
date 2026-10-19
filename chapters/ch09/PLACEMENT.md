@@ -5,16 +5,16 @@
 **Relative path from chapter text to diagrams:** `../diagrams/png/`
 **Caption convention:** `Figure 9.N` (book convention)
 
-## Placements (6 figures)
+## Placements (5 placed, 1 held)
 
 | Figure | Diagram file | After line | Anchor text | Strategy |
 |---|---|---|---|---|
-| **9.1** | `ch09-01-stanford-ai-deployment.png` | **45** | "The technology worked. The coordination failed." | Hero image. Lands on the chapter's opening case punchline — Stanford pneumonia AI shut down despite 95% accuracy. Latent "Integration Coordination" node is the missing layer. |
-| **9.2** | `ch09-02-chollet-death-spiral.png` | **150** | "...complexity creates coordination overhead, which creates cognitive load, which in turn creates more complexity." | Closes Chollet's death-spiral statement; the diagram's reinforcing loop literally names the sentence. |
-| **9.3** | `ch09-05-raworth-doughnut-overshoot.png` | **243** | "...coordination-first, regenerative, distributive." | Closes the Raworth passage in §9.2. The balancing loop (planetary pushback) + latent regenerative-distribution node mirror the doughnut's inner/outer boundaries. |
-| **9.4** | `ch09-03-yang-automation-distribution.png` | **257** | "...coordinating technological capability with human needs through distribution systems that serve everyone." | Closes the Yang UBI passage. Latent UBI node re-couples capability to security — the diagram is the argument's structure. |
-| **9.5** | `ch09-04-turkle-conversation-erosion.png` | **329** | "...using technology to enhance rather than replace human connection." | Closes the Turkle §9.3 passage. Reinforcing loop (mediation → fragmented attention → erosion → more mediation) is the "conversation crisis" stated causally. |
-| **9.6** | `ch09-06-menegon-mutual-aid-fork.png` | **359** | "...coordinating technology with human connection to create resilience and belonging." | Closes the Menegon passage and the chapter's three-section arc. The virtuous/vicious fork with latent platform-ownership switch is the sharpest "is it the tech?" rebuttal in the chapter. |
+| **9.1** | `ch09-01-stanford-ai-deployment.png` | **45** | "...The technology worked. The coordination failed." | Chapter opener. |
+| **9.2** | `ch09-02-chollet-death-spiral.png` | **150** | "...which creates cognitive load, which in turn creates more complexity." | At the coordination death spiral. |
+| **9.3** | `ch09-05-raworth-doughnut-overshoot.png` | **233** | "...creates flourishing. This is economics done right: coordination-first, regenerative, distributive." | Closes Raworth. |
+| **9.4** | `ch09-03-yang-automation-distribution.png` | **223** | "...The technology works. The economy breaks." | After the automation example in §9.2. |
+| **9.5** | `ch09-04-turkle-conversation-erosion.png` | **307** | "...shared discomfort, and the emotional challenge that builds relational resilience." | At Turkle's conversation crisis. |
+| **9.6** | `ch09-06-menegon-mutual-aid-fork.png` | **359** | "...coordinating technology with human connection to create resilience and belonging." | **HELD (class c).** Menegon is not in ch09. (Existing graph also has a loop parity error: R2 declares m=2, closed path has 1 negative.) Held. Proposed redraw: Eisenstein gift economy or market logic in proposals/replacements/9.6-eisenstein-gift-or-market; or remove. (Audit 2026-10-19: `_meta/diagram-audit.md`.) |
 
 ## Insertion syntax
 
@@ -36,14 +36,18 @@ Each figure inserts as a markdown image with a caption line. Example for Figure 
 
 1. **Figure 9.1** — Stanford AI deployment three-body failure · line 45
 2. **Figure 9.2** — Chollet coordination death spiral · line 150
-3. **Figure 9.3** — Raworth doughnut overshoot + regenerative distribution · line 243
-4. **Figure 9.4** — Yang automation / distribution gap · line 257
-5. **Figure 9.5** — Turkle conversation erosion loop · line 329
-6. **Figure 9.6** — Menegon mutual aid virtuous/vicious fork · line 359
+3. **Figure 9.4** — Automation–distribution coordination break · line 223
+4. **Figure 9.3** — Raworth doughnut overshoot and shortfall · line 233
+5. **Figure 9.5** — Turkle conversation erosion loop · line 307
+- **Figure 9.6** — Menegon mutual aid: enabling vs replacing · HELD (class c, not placed)
 
-## Notes
+The website renumbers placed figures in reading order, so its labels can differ from the source labels above.
 
-- **Slug-to-figure mapping** is not 1:1 because slug numbers follow the DIAGRAMS.md authoring order while figure numbers follow reading order. Slug `ch09-05-raworth` becomes Figure 9.3 (Raworth is read before Yang in §9.2); slug `ch09-03-yang` becomes Figure 9.4.
-- **One figure per voice.** Chapter 9 profiles nine thinkers but only six earned diagrams (see `DIAGRAMS.md` "Cut" section — Mostaque, the digital-wellbeing consultant, Eisenstein, Rosedale, and Autor were cut for redundancy or lack of a directional causal claim). Every placed figure sits at the end of its subject's passage so the diagram closes the argument rather than interrupting it.
-- **Figure 9.1 is the only non-terminal placement** — it lands mid-opening on the "technology worked / coordination failed" line because that sentence *is* the chapter's thesis and the diagram is the hero image for the whole chapter.
-- **Relative path `../diagrams/png/`** is clean because all diagram files live in the per-chapter folder. Chapter is self-contained.
+## Notes (audit 2026-10-19)
+
+Class a = still accurate; b = right subject, drawing revised to match the current prose; c = subject no longer in the chapter (held). Full table: `_meta/diagram-audit.md`.
+
+- **9.3 (b)** — Planetary-pushback balancing loop is not argued anywhere; text optimises 'GDP growth' against an ecological ceiling and a social floor. GDP Growth, Ecological Overshoot, Social Shortfall -> Human Flourishing with latent Regenerative Distribution; pushback removed; regenerated.
+- **9.4 (b)** — Yang/UBI no longer appear, but the same causal story (capability up, wages tied to jobs, income disappears, productivity-wage gap) is argued at the top of 9.2 and in Autor. Latent was UBI. RECLASSIFIED (was in the site SKIP list). Latent is now Distribution Institutions (unions, progressive taxation, minimum wage per Autor); re-anchored to 'The technology works. The economy breaks.' Needs author OK.
+- **9.5 (b)** — Back-edge Conversation Skill -> Mediated Communication and loop R1 not argued; text: technology trains fragmented attention, empathy deficit; third body = cultural norms. Loop removed; latent Cultural Norms added; regenerated.
+- **9.6 (c)** — Menegon is not in ch09. (Existing graph also has a loop parity error: R2 declares m=2, closed path has 1 negative.) Held. Proposed redraw: Eisenstein gift economy or market logic in proposals/replacements/9.6-eisenstein-gift-or-market; or remove.

@@ -1,6 +1,8 @@
 # Diagram Placements — Book-wide Index
 
-**Total: 65 figures across 13 chapter-like sections** (62 unique diagrams + 1 triptych + 2 cross-referenced reuses)
+> **Status 2026-10-19 (audit).** Of the 58 figures in chapters 1-9 and X, 46 are placed and 12 are held because their subject was cut from the rewritten chapters (see `_meta/diagram-audit.md`). 18 graphs were revised to match the current prose; every per-chapter `PLACEMENT.md` now carries refreshed line numbers and quoted anchors against the current text. Counts below are for chapters 1-9 and X only; the Preface, Prologue and Appendix A figures were not audited.
+
+**Original plan (2026-04-09): 65 figures across 13 chapter-like sections** (62 unique diagrams + 1 triptych + 2 cross-referenced reuses)
 
 Each chapter has a `PLACEMENT.md` file with exact insertion points for every figure — the line number in the chapter text, the anchor passage, the caption, and the rationale. This index links to each per-chapter placement doc and gives a top-level tally.
 
@@ -10,16 +12,16 @@ Each chapter has a `PLACEMENT.md` file with exact insertion points for every fig
 |---|---|---|
 | **Preface** (front matter) | **1** (Reading Legend — pedagogical) | [`chapters/front-matter/preface/PLACEMENT.md`](chapters/front-matter/preface/PLACEMENT.md) |
 | **Prologue** (front matter) | **2** (both reused from Appendix A) | [`chapters/front-matter/prologue/PLACEMENT.md`](chapters/front-matter/prologue/PLACEMENT.md) |
-| Chapter 1 — Coordination Intelligence Revolution | **8** (1 hero + 3 failures + 1 triptych + 3 pattern) | [`chapters/ch01/PLACEMENT.md`](chapters/ch01/PLACEMENT.md) |
-| Chapter 2 — Dawn of Systems Intelligence | 5 | [`chapters/ch02/PLACEMENT.md`](chapters/ch02/PLACEMENT.md) |
-| Chapter 3 — Architecture of Systems Intelligence | 6 | [`chapters/ch03/PLACEMENT.md`](chapters/ch03/PLACEMENT.md) |
-| Chapter 4 — Systems Intelligence in Action | 6 | [`chapters/ch04/PLACEMENT.md`](chapters/ch04/PLACEMENT.md) |
-| Chapter 5 — Human-Systems Intelligence Interaction | 5 | [`chapters/ch05/PLACEMENT.md`](chapters/ch05/PLACEMENT.md) |
-| Chapter 6 — Consciousness as Pattern Recognition | 5 | [`chapters/ch06/PLACEMENT.md`](chapters/ch06/PLACEMENT.md) |
-| Chapter 7 — Engineering Reality | 5 | [`chapters/ch07/PLACEMENT.md`](chapters/ch07/PLACEMENT.md) |
-| Chapter 8 — Beyond Human Intelligence | 6 | [`chapters/ch08/PLACEMENT.md`](chapters/ch08/PLACEMENT.md) |
-| Chapter 9 — No Way Know-How | 6 | [`chapters/ch09/PLACEMENT.md`](chapters/ch09/PLACEMENT.md) |
-| Chapter X — The Grand Coordination | 6 | [`chapters/chX/PLACEMENT.md`](chapters/chX/PLACEMENT.md) |
+| Chapter 1 — Coordination Intelligence Revolution | 6 placed, 2 held | [`chapters/ch01/PLACEMENT.md`](chapters/ch01/PLACEMENT.md) |
+| Chapter 2 — Dawn of Systems Intelligence | 3 placed, 2 held | [`chapters/ch02/PLACEMENT.md`](chapters/ch02/PLACEMENT.md) |
+| Chapter 3 — Architecture of Systems Intelligence | 6 placed | [`chapters/ch03/PLACEMENT.md`](chapters/ch03/PLACEMENT.md) |
+| Chapter 4 — Systems Intelligence in Action | 5 placed, 1 held | [`chapters/ch04/PLACEMENT.md`](chapters/ch04/PLACEMENT.md) |
+| Chapter 5 — Human-Systems Intelligence Interaction | 5 placed | [`chapters/ch05/PLACEMENT.md`](chapters/ch05/PLACEMENT.md) |
+| Chapter 6 — Consciousness as Pattern Recognition | 5 placed | [`chapters/ch06/PLACEMENT.md`](chapters/ch06/PLACEMENT.md) |
+| Chapter 7 — Engineering Reality | 4 placed, 1 held | [`chapters/ch07/PLACEMENT.md`](chapters/ch07/PLACEMENT.md) |
+| Chapter 8 — Beyond Human Intelligence | 6 placed | [`chapters/ch08/PLACEMENT.md`](chapters/ch08/PLACEMENT.md) |
+| Chapter 9 — No Way Know-How | 5 placed, 1 held | [`chapters/ch09/PLACEMENT.md`](chapters/ch09/PLACEMENT.md) |
+| Chapter X — The Grand Coordination | 1 placed, 5 held | [`chapters/chX/PLACEMENT.md`](chapters/chX/PLACEMENT.md) |
 | Appendix A — Mathematical Foundations | 4 | [`chapters/back-matter/appendix-a/PLACEMENT.md`](chapters/back-matter/appendix-a/PLACEMENT.md) |
 | **Total** | **65** | (63 unique + 1 triptych + 2 Prologue reuses of Appendix A figures already counted) |
 
