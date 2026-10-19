@@ -1,0 +1,24 @@
+{
+  "id": "proposal-X.4-three-triads",
+  "title": "The book as a coordination system",
+  "summary": "Foundation provides the physics, Application provides the proof, Transcendence provides the stakes. Remove any triad and the book collapses; together they produce a way of seeing that changes how you act, which is the claim the book itself makes about coordination.",
+  "fmt": "cld",
+  "source": "ChX — 'The Nine Chapters as a Coordination System' (replaces the Ostrom commons figure)",
+  "nodes": [
+    { "id": "n1", "label": "Foundation Triad", "description": "Chapters 1-3: the physics of coordination", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Application Triad", "description": "Chapters 4-6: the proof under real conditions", "category": "driver", "is_latent": false },
+    { "id": "n3", "label": "Transcendence Triad", "description": "Chapters 7-9: the stakes and the barriers", "category": "driver", "is_latent": false },
+    { "id": "n4", "label": "Coordination Consciousness", "description": "A way of seeing that changes how you act", "category": "outcome", "is_latent": false }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n4", "polarity": "positive", "description": "Without the foundation: ambition without architecture", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n4", "polarity": "positive", "description": "Without application: philosophy without grip", "has_delay": false, "is_confounding": false },
+    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Without the stakes: short-horizon thinking", "has_delay": false, "is_confounding": false },
+    { "from": "n1", "to": "n2", "polarity": "positive", "description": "Application tests the foundation", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "positive", "description": "Stakes grow out of what application revealed", "has_delay": false, "is_confounding": false }
+  ],
+  "loops": [
+  ],
+  "identifiability": "identifiable",
+  "identifiability_note": "Structural, not empirical: the claim is that the three triads together produce what none carries alone."
+}

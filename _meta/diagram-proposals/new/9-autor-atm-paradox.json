@@ -1,0 +1,26 @@
+{
+  "id": "proposal-9-autor-atm-paradox",
+  "title": "Autor: why ATMs raised teller employment",
+  "summary": "ATMs automated the routine part of a teller's day, which freed tellers for advice and relationships and cut the cost of a branch, so banks opened many more branches. Tellers per branch fell but total tellers rose from about 300,000 to 500,000. If a job is almost entirely routine there is no residual human task and it is eliminated.",
+  "fmt": "cld",
+  "source": "Ch09 §9.2 — David Autor, the ATM paradox and task bundles",
+  "nodes": [
+    { "id": "n1", "label": "Routine Task Automation", "description": "ATMs take over routine transactions", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Branch Operating Cost", "description": "Labor cost per branch", "category": "mediator", "is_latent": false },
+    { "id": "n3", "label": "Branch Count", "description": "Many more branches", "category": "mediator", "is_latent": false },
+    { "id": "n5", "label": "Teller Employment", "description": "About 300,000 in 1970 to 500,000 by 2010", "category": "outcome", "is_latent": false },
+    { "id": "n4", "label": "Residual Human Tasks", "description": "Advice, relationships, judgment that stay with people", "category": "mediator", "is_latent": false }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n2", "polarity": "negative", "description": "Automation lowers the labor cost of a branch", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "negative", "description": "Cheaper branches mean more branches", "has_delay": true, "is_confounding": false },
+    { "from": "n3", "to": "n5", "polarity": "positive", "description": "More branches need more tellers", "has_delay": true, "is_confounding": false },
+    { "from": "n1", "to": "n5", "polarity": "negative", "description": "Fewer tellers are needed per branch", "has_delay": false, "is_confounding": false },
+    { "from": "n1", "to": "n4", "polarity": "positive", "description": "Automating the routine part frees the human part", "has_delay": false, "is_confounding": false },
+    { "from": "n4", "to": "n5", "polarity": "positive", "description": "A job with residual human tasks transforms rather than vanishes", "has_delay": false, "is_confounding": false }
+  ],
+  "loops": [
+  ],
+  "identifiability": "identifiable",
+  "identifiability_note": "Observed labor-market series; the critical variable is the composition of the task bundle."
+}

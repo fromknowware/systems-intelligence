@@ -1,0 +1,24 @@
+{
+  "id": "proposal-7.4-mlops-feedback-loop",
+  "title": "MLOps: model, system, continuous improvement",
+  "summary": "Machine learning in production is a three-body problem: model performance, system reliability and continuous improvement. 'Train, deploy, hope' is the two-body version; feedback loops and retraining close the loop so the model keeps getting better against real use.",
+  "fmt": "cld",
+  "source": "Ch07 §7.3 — 'Model Performance / System Reliability / Continuous Improvement' (replaces the Covariant sim-to-real figure)",
+  "nodes": [
+    { "id": "n1", "label": "Model Performance", "description": "Accuracy, precision, recall", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "System Reliability", "description": "Uptime, latency, scalability", "category": "driver", "is_latent": false },
+    { "id": "n3", "label": "Production Intelligence", "description": "What the model delivers in real use", "category": "outcome", "is_latent": false },
+    { "id": "n4", "label": "Continuous Improvement", "description": "Feedback loops and retraining", "category": "feedback", "is_latent": false }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n3", "polarity": "positive", "description": "A better model predicts better", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "positive", "description": "A reliable system actually serves the predictions", "has_delay": false, "is_confounding": false },
+    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Real-world results generate the feedback", "has_delay": true, "is_confounding": false },
+    { "from": "n4", "to": "n1", "polarity": "positive", "description": "Retraining improves the model", "has_delay": true, "is_confounding": false }
+  ],
+  "loops": [
+    { "type": "reinforcing", "label": "R1 — Learning loop", "nodes": ["n1", "n3", "n4"], "minus_count": 0 }
+  ],
+  "identifiability": "identifiable",
+  "identifiability_note": "All stages are instrumented in production. Alternative anchor: Dean's MapReduce (see new/7-mapreduce-failure-handling)."
+}

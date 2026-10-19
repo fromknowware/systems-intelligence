@@ -1,0 +1,26 @@
+{
+  "id": "proposal-9.6-eisenstein-gift-or-market",
+  "title": "Eisenstein: AI as gift economy or market logic",
+  "summary": "The same matching technology can enable a gift economy at scale (matching needs with gifts, tracking reciprocity) or amplify market logic (monetising everything and destroying the remaining gift relationships). The resolution is to coordinate markets with the gift economy, not replace one with the other.",
+  "fmt": "both",
+  "source": "Ch09 §9.2 — Charles Eisenstein, gift economy (replaces the Menegon mutual-aid figure)",
+  "nodes": [
+    { "id": "n1", "label": "AI Matching", "description": "Matching needs with gifts, tracking reciprocity", "category": "driver", "is_latent": false },
+    { "id": "n3", "label": "Market Logic", "description": "Everything priced and monetised", "category": "mediator", "is_latent": false },
+    { "id": "n2", "label": "Gift Reciprocity", "description": "Giving and obligation without money", "category": "mediator", "is_latent": false },
+    { "id": "n4", "label": "Community Connection", "description": "Relationships, trust and meaning", "category": "outcome", "is_latent": false },
+    { "id": "n5", "label": "Market-Gift Coordination", "description": "Markets for goods, gifts for relationships and meaning", "category": "latent", "is_latent": true }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n2", "polarity": "positive", "description": "AI can enable a gift economy at scale", "has_delay": false, "is_confounding": false },
+    { "from": "n1", "to": "n3", "polarity": "positive", "description": "AI can equally amplify market logic", "has_delay": false, "is_confounding": false },
+    { "from": "n3", "to": "n2", "polarity": "negative", "description": "Monetisation destroys the remaining gift relationships", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n4", "polarity": "positive", "description": "Gift relationships build community", "has_delay": false, "is_confounding": false },
+    { "from": "n5", "to": "n3", "polarity": "negative", "description": "Coordination keeps market logic to goods and services", "has_delay": false, "is_confounding": true },
+    { "from": "n5", "to": "n2", "polarity": "positive", "description": "and protects gifts for relationships and meaning", "has_delay": false, "is_confounding": true }
+  ],
+  "loops": [
+  ],
+  "identifiability": "not_identifiable",
+  "identifiability_note": "Which way the technology tips depends on the unobserved coordination layer (n5)."
+}

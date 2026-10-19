@@ -3,13 +3,13 @@
 # Run from anywhere; uses absolute paths.
 set -e
 
-ROOT="/Users/theusual_pro/Documents/claude-code/systems-intelligence"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 OUT="$ROOT/_meta/viewer/chapters-data.js"
 
-python3 - <<'PY' > "$OUT"
+ROOT="$ROOT" python3 - <<'PY' > "$OUT"
 import json, os, re, glob
 
-ROOT = "/Users/theusual_pro/Documents/claude-code/systems-intelligence"
+ROOT = os.environ["ROOT"]
 chapters = []
 
 # Order: front-matter/* then ch01..ch09 then chX then back-matter/*

@@ -1,0 +1,26 @@
+{
+  "id": "proposal-2.3-oculus-timing-coordination",
+  "title": "Oculus VR: timing coordination, not specs",
+  "summary": "VR made people sick not because displays were low-resolution but because display latency, head tracking and rendering were out of sync, producing a sensory conflict. Oculus coordinated the three timings until the latency was imperceptible.",
+  "fmt": "both",
+  "source": "Ch02 — Palmer Luckey, 'Coordination Beats Optimization Every Time' (replaces the Musk first-principles figure)",
+  "nodes": [
+    { "id": "n1", "label": "Display Latency", "description": "Delay between rendering and what the screen shows", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Head Tracking Lag", "description": "Delay in following the user's head movement", "category": "driver", "is_latent": false },
+    { "id": "n4", "label": "Sensory Conflict", "description": "Visual information out of sync with head movement", "category": "mediator", "is_latent": false },
+    { "id": "n3", "label": "Rendering Time", "description": "Time to generate each new frame", "category": "driver", "is_latent": false },
+    { "id": "n5", "label": "Motion Sickness", "description": "Nausea that stopped early VR from working", "category": "outcome", "is_latent": false },
+    { "id": "n6", "label": "Timing Coordination", "description": "Display, tracking and rendering tuned together", "category": "latent", "is_latent": true }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n4", "polarity": "positive", "description": "Late pixels contradict the inner ear", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n4", "polarity": "positive", "description": "Lagging tracking contradicts head movement", "has_delay": false, "is_confounding": false },
+    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Slow frames contradict head movement", "has_delay": false, "is_confounding": false },
+    { "from": "n4", "to": "n5", "polarity": "positive", "description": "Sensory conflict produces nausea", "has_delay": false, "is_confounding": false },
+    { "from": "n6", "to": "n4", "polarity": "negative", "description": "Coordinated timing reduces latency to imperceptible levels", "has_delay": false, "is_confounding": true }
+  ],
+  "loops": [
+  ],
+  "identifiability": "identifiable",
+  "identifiability_note": "Each timing can be measured; the missing coordination is the thing Oculus engineered."
+}

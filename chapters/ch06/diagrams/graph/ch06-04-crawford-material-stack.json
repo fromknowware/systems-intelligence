@@ -1,27 +1,26 @@
 {
   "id": "ch06-04-crawford-material-stack",
   "title": "Crawford: AI's material three-body stack",
-  "summary": "Every query coordinates three material bodies — resource extraction, compute infrastructure, and ghost labor — whose combined output is marketed as 'intelligence.' Demand closes a reinforcing loop back onto extraction.",
+  "summary": "Every AI system coordinates three material bodies: resource extraction, computational infrastructure and human labor. The output marketed as 'intelligence' externalizes environmental and social costs; with minimal accountability the machines do exactly what they are told while the human and ecological context is devastated.",
   "fmt": "cld",
   "source": "Ch06 — 'Every query you send to ChatGPT coordinates your question with server farms... with rare earth mines in Congo... with underpaid content moderators.'",
   "nodes": [
-    { "id": "n1", "label": "Resource Extraction", "description": "Cobalt, lithium, water",         "category": "driver",   "is_latent": false },
-    { "id": "n2", "label": "Compute Infrastructure","description": "Data centers, chips, energy",   "category": "mediator", "is_latent": false },
-    { "id": "n3", "label": "Ghost Labor",           "description": "Labeling, moderation",          "category": "mediator", "is_latent": false },
-    { "id": "n4", "label": "Ai Output",             "description": "Models, queries, products",     "category": "outcome",  "is_latent": false },
-    { "id": "n5", "label": "User Demand",           "description": "Consumption and usage",         "category": "feedback", "is_latent": false }
+    { "id": "n1", "label": "Resource Extraction", "description": "Rare earths, energy, water", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Compute Infrastructure", "description": "Data centers, chips, networks", "category": "mediator", "is_latent": false },
+    { "id": "n4", "label": "Externalized Costs", "description": "Environmental damage and exploited labor left off the books", "category": "outcome", "is_latent": false },
+    { "id": "n3", "label": "AI Output", "description": "Every recommendation and generated image", "category": "outcome", "is_latent": false },
+    { "id": "n5", "label": "Human Labor", "description": "Data labeling, content moderation, maintenance", "category": "driver", "is_latent": false },
+    { "id": "n6", "label": "Material Accountability", "description": "Coordination of technical progress with sustainability and justice", "category": "latent", "is_latent": true }
   ],
   "edges": [
-    { "from": "n1", "to": "n2", "polarity": "positive", "description": "Minerals and energy build compute", "has_delay": true,  "is_confounding": false },
-    { "from": "n2", "to": "n4", "polarity": "positive", "description": "Compute produces output",          "has_delay": false, "is_confounding": false },
-    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Human labor shapes output",        "has_delay": false, "is_confounding": false },
-    { "from": "n4", "to": "n5", "polarity": "positive", "description": "Useful output drives demand",      "has_delay": false, "is_confounding": false },
-    { "from": "n5", "to": "n1", "polarity": "positive", "description": "Demand pulls more extraction",     "has_delay": true,  "is_confounding": false },
-    { "from": "n5", "to": "n3", "polarity": "positive", "description": "Demand pulls more ghost labor",    "has_delay": false, "is_confounding": false }
+    { "from": "n1", "to": "n2", "polarity": "positive", "description": "Mined materials and energy build and run the infrastructure", "has_delay": true, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "positive", "description": "Infrastructure trains and serves the model", "has_delay": false, "is_confounding": false },
+    { "from": "n5", "to": "n3", "polarity": "positive", "description": "Ghost workers label and moderate what the model learns from", "has_delay": false, "is_confounding": false },
+    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Production rises while environmental and social costs are excluded from the model", "has_delay": true, "is_confounding": false },
+    { "from": "n6", "to": "n4", "polarity": "negative", "description": "Accountability would force costs back into the accounts", "has_delay": false, "is_confounding": true }
   ],
   "loops": [
-    { "type": "reinforcing", "label": "R1 — Extraction flywheel", "nodes": ["n1","n2","n4","n5"], "minus_count": 0 }
   ],
   "identifiability": "identifiable",
-  "identifiability_note": "All nodes observable in principle via supply-chain audit; no latent confounder required."
+  "identifiability_note": "Every node is observable through supply-chain and energy audit; the absent piece is accountability, not data."
 }

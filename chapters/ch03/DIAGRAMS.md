@@ -3,12 +3,27 @@
 **Chapter:** Architecture of Systems Intelligence
 **Status:** 6 diagrams authored as arc_engine graph JSONs
 
+## Audit against the current text (2026-10-19)
+
+The text was rewritten on 2026-04-16 (Feynman, Gosling, Delangue, McGilchrist, Capra, Kurzweil added). New unillustrated arguments are listed in `_meta/diagram-proposals/README.md`.
+
+| Fig | Class | What was stale | Fix |
+|---|---|---|---|
+| 3.1 | a | None. | No change. |
+| 3.2 | b | Edge Critique Signal -> AI Capability (negative) contradicts the text ('capability and alignment grow together'); loop B1 therefore throttled capability. | Critique now a shrinking gap: Aligned Response -(-)-> Critique Signal -> Aligned Response (B1); capability edge removed; regenerated. |
+| 3.3 | a | Nit: the text treats Prediction Task as the third body; the graph makes it a downstream outcome. | No change. |
+| 3.4 | a | None. | No change. |
+| 3.5 | a | Nit: 'Evolutionary Signal' vs text 'Evolutionary Information'. | No change. |
+| 3.6 | a | None. | No change. |
+
+Rows in the table above for revised (class b) figures were regenerated from their graph JSON; notes about those figures that described the old drawings were removed. Full audit: `_meta/diagram-audit.md`.
+
 ## Survivors (6)
 
 | # | Slug | Nodes | Type | Source claim |
 |---|---|---|---|---|
 | 01 | `01-iaac-learning-building` | 5 | CLD · 2 reinforcing loops | "Building Sensors ↔ AI Learning System ↔ Human Occupant Behavior" (IAAC Barcelona) |
-| 02 | `02-constitutional-ai-rlaif` | 5 | CLD · 1 balancing loop | "Capability, human values, and the constitutional framework that coordinates them" (Amodei / RLAIF) |
+| 02 | `02-constitutional-ai-rlaif` | 5 | CLD · B1 Self-critique correction | Constitutional AI coordinates capability with human values through a constitutional framework: the model critiques and revises its own responses against the principles (RLAIF), so the critique signal shrinks as responses align. Capability and alignment grow together instead of trading off. |
 | 03 | `03-jepa-coordination` | 5 | CLD · 1 reinforcing loop | "Past Context ↔ Future Context ↔ Prediction Task" (LeCun / JEPA) |
 | 04 | `04-alphago-three-networks` | 5 | CLD · 2 reinforcing loops | "Policy Network · Value Network · Monte Carlo Tree Search" (AlphaGo / Move 37) |
 | 05 | `05-alphafold-coordination` | 5 | DAG · no loops, identifiable | "Evolutionary Information · Physical Constraints · Attention Architecture" (AlphaFold) |
@@ -24,7 +39,6 @@
 
 ## Notes
 
-- **#02 Constitutional AI** is the chapter's only balancing loop: the critique signal suppresses misaligned capability patterns (1 negative edge → B). Good contrast with the mostly-reinforcing loops elsewhere in the chapter.
 - **#05 AlphaFold** is the chapter's only `identifiable` diagram, because each information channel (sequence, evolution, physics) can be ablated independently — a nice counterpoint to the loop-heavy systems where causes and effects co-evolve.
 - **#06 Two-body brittleness** is the book's first explicit "missing third body" diagram. The latent node `n5` represents whatever third coordinating element is absent (context, feedback, meta-learner), and it acts as a confounder on both the rigid-rules path and the brittleness outcome.
 - None of the Ch03 diagrams are drawn solely from the three interview files (3.01 Amodei, 3.02 LeCun, 3.03 Hassabis). The interview material is already consolidated into the chapter text sections on Constitutional AI, JEPA, AlphaGo and AlphaFold, so the graph JSONs track the chapter text.

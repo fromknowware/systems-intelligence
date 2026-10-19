@@ -3,13 +3,30 @@
 **Chapter:** The Coordination Intelligence Revolution
 **Status:** 🟢 7 diagrams authored as arc_engine graph JSONs (cut from initial 12)
 
+## Audit against the current text (2026-10-19)
+
+The Cut list and Notes still describe the 2026-04-09 drawings; Burning Man (#09) and the triptych are held (class c).
+
+| Fig | Class | What was stale | Fix |
+|---|---|---|---|
+| 1.1 | a | Nit: text names the third body 'social system dynamics'; node says Emergent Contagion. | No change. |
+| 1.2 | c | Composite of 1.3-1.5 (2584px wide); has no graph of its own and is unreadable at page width. | Recommend dropping: the three diagrams are placed individually. Held (not placed). |
+| 1.3 | a | Nit: latent could read Interface Standards. | No change. |
+| 1.4 | b | Balancing loop 'Crisis correction' and the Cascade -> Models edge are not argued; the text says no corrective feedback existed. | Edge and loop removed; summary corrected; SVG/PNG regenerated. |
+| 1.5 | a | Nit: latent 'Pilot Awareness' = the text's 'operational coordination'. | No change. |
+| 1.6 | a | Optional: text says knowware arises from the interaction of hardware and software (no Hardware/Software -> Knowware edges drawn). | No change. |
+| 1.7 | a | Adapt -> Identify closure is implied by 'adapt continuously'. | No change. |
+| 1.8 | c | Burning Man and Larry Harvey were cut from ch01. | Held. Proposed redraw: multipolar trap (Schmachtenberger) in _meta/diagram-proposals/replacements/1.8-multipolar-trap; or remove. |
+
+Rows in the table above for revised (class b) figures were regenerated from their graph JSON; notes about those figures that described the old drawings were removed. Full audit: `_meta/diagram-audit.md`.
+
 ## Survivors (7)
 
 | # | Slug | Nodes | Type | Source claim |
 |---|---|---|---|---|
 | 01 | `01-facebook-three-body` | 4 (1 latent) | CLD · 1 reinforcing loop + 2 confounding arcs | "Human behavior ↔ Algorithm optimization ↔ Social system dynamics" — the chapter's opening case |
 | 04 | `04-mars-orbiter-coordination-gap` | 5 (1 latent) | DAG · no loops, 1 confounding arc | Mars Climate Orbiter — competent components, missing coordination interface |
-| 05 | `05-2008-systemic-correlation` | 6 (1 latent) | CLD · B1 + 1 confounding arc | 2008 crisis — uniform risk models produced hidden systemic correlation |
+| 05 | `05-2008-systemic-correlation` | 6 (1 latent) | BOTH · no loops, 1 confounding | Individual risk models plus diversification looked safe, but uniform models and interconnected products created hidden systemic correlation that cascaded into collapse. The missing third element was monitoring how risks coordinated across the whole market. |
 | 06 | `06-737max-mcas-human-machine` | 6 (1 latent) | DAG · no loops, 1 confounding arc | 737 MAX — MCAS software, operational stress, pilot override, missing awareness |
 | 07 | `07-hardware-software-knowware` | 4 | CLD · 1 reinforcing loop | The canonical book schema — the **foundational three-body pattern** every other diagram specializes |
 | 09 | `09-burning-man-three-elements` | 4 | CLD · 2 reinforcing loops | Burning Man — Self Expression / Communal Effort / Temporary Infrastructure → Playa Magic |

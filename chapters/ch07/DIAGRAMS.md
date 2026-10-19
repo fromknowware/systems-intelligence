@@ -3,6 +3,20 @@
 **Chapter:** Engineering Reality — Ternary Engineering Patterns
 **Status:** 5 diagrams authored as arc_engine graph JSONs
 
+## Audit against the current text (2026-10-19)
+
+Notes about #04 refer to the Covariant figure, which is held (class c).
+
+| Fig | Class | What was stale | Fix |
+|---|---|---|---|
+| 7.1 | a | None. | No change. |
+| 7.2 | a | Worm -> design feedback edge is implied ('coordinating with them'), not stated. | No change. |
+| 7.3 | a | None. | No change. |
+| 7.4 | c | Abbeel / Covariant / sim-to-real cut from ch07. | Held. Proposed redraw: MLOps feedback loop (§7.3) in proposals/replacements/7.4-mlops-feedback-loop; or remove. |
+| 7.5 | a | None. | No change. |
+
+Rows in the table above for revised (class b) figures were regenerated from their graph JSON; notes about those figures that described the old drawings were removed. Full audit: `_meta/diagram-audit.md`.
+
 ## Survivors (5)
 
 | # | Slug | Nodes | Type | Source claim |
