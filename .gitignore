@@ -58,3 +58,8 @@ dist/
 
 # Proof editor access tokens (keep push.py tracked, docs.json local)
 _meta/proof/docs.json
+
+# Local-only animation tooling and renders (3b1b manim); the repo keeps only the static diagrams
+_meta/animation/
+*.mp4
+venv-manim/
