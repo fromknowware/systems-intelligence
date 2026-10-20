@@ -1,9 +1,9 @@
 {
-  "id": "proposal-2.3-oculus-timing-coordination",
+  "id": "ch02-06-oculus-timing-coordination",
   "title": "Oculus VR: timing coordination, not specs",
   "summary": "VR made people sick not because displays were low-resolution but because display latency, head tracking and rendering were out of sync, producing a sensory conflict. Oculus coordinated the three timings until the latency was imperceptible.",
   "fmt": "both",
-  "source": "Ch02 — Palmer Luckey, 'Coordination Beats Optimization Every Time' (replaces the Musk first-principles figure)",
+  "source": "Ch02 — Palmer Luckey, 'Coordination Beats Optimization Every Time'",
   "nodes": [
     { "id": "n1", "label": "Display Latency", "description": "Delay between rendering and what the screen shows", "category": "driver", "is_latent": false },
     { "id": "n2", "label": "Head Tracking Lag", "description": "Delay in following the user's head movement", "category": "driver", "is_latent": false },

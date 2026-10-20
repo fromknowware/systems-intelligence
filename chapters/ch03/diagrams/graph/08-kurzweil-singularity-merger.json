@@ -1,0 +1,24 @@
+{
+  "id": "ch03-08-kurzweil-singularity-merger",
+  "title": "Kurzweil: transcendence through coordination",
+  "summary": "Biological intelligence (consciousness, creativity, values), artificial intelligence (scale, speed, memory, logical consistency) and neural integration (the interfaces that let them coordinate seamlessly) form a three-body system. Coordinated, the merger expands human capability while preserving consciousness, values and identity; whether it serves human flourishing depends on the coordination architecture we build around it.",
+  "fmt": "both",
+  "source": "Ch03 — 'What This Means for Building the Future', Ray Kurzweil's three bodies of transcendence (re-homed from the former chX Kurzweil figure)",
+  "nodes": [
+    { "id": "n1", "label": "Biological Intelligence", "description": "Consciousness, creativity, values", "category": "driver", "is_latent": false },
+    { "id": "n2", "label": "Artificial Intelligence", "description": "Scale, speed, memory, logical consistency", "category": "driver", "is_latent": false },
+    { "id": "n3", "label": "Neural Integration", "description": "Interfaces enabling seamless coordination", "category": "mediator", "is_latent": false },
+    { "id": "n4", "label": "Transcendence", "description": "Capability expanded while consciousness, values and identity are preserved", "category": "outcome", "is_latent": false },
+    { "id": "n5", "label": "Coordination Architecture", "description": "Equitable access and alignment built into the merger", "category": "latent", "is_latent": true }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n3", "polarity": "positive", "description": "Biological intelligence supplies the consciousness and values to be integrated", "has_delay": false, "is_confounding": false },
+    { "from": "n2", "to": "n3", "polarity": "positive", "description": "Artificial intelligence supplies scale and speed", "has_delay": false, "is_confounding": false },
+    { "from": "n3", "to": "n4", "polarity": "positive", "description": "Seamless coordination turns two kinds of intelligence into one expanded capability", "has_delay": true, "is_confounding": false },
+    { "from": "n5", "to": "n3", "polarity": "positive", "description": "Constitutional coordination architectures keep the integration aligned", "has_delay": false, "is_confounding": true },
+    { "from": "n5", "to": "n4", "polarity": "positive", "description": "and make transcendence serve human flourishing", "has_delay": false, "is_confounding": true }
+  ],
+  "loops": [],
+  "identifiability": "not_identifiable",
+  "identifiability_note": "Forward-looking: the merger has not happened, so the coordinated and uncoordinated outcomes cannot be compared. The text itself frames the open question as whether the coordination will be architected to serve human flourishing."
+}

@@ -1,9 +1,9 @@
 # Chapter 7 — Causal Diagrams
 
 **Chapter:** Engineering Reality — Ternary Engineering Patterns
-**Status:** 5 diagrams authored as arc_engine graph JSONs
+**Status:** 6 diagrams authored as arc_engine graph JSONs
 
-## Audit against the current text (2026-10-19)
+## Audit against the current text (2026-10-19; held figures resolved 2026-10-20)
 
 Notes about #04 refer to the Covariant figure, which is held (class c).
 
@@ -12,20 +12,23 @@ Notes about #04 refer to the Covariant figure, which is held (class c).
 | 7.1 | a | None. | No change. |
 | 7.2 | a | Worm -> design feedback edge is implied ('coordinating with them'), not stated. | No change. |
 | 7.3 | a | None. | No change. |
-| 7.4 | c | Abbeel / Covariant / sim-to-real cut from ch07. | Held. Proposed redraw: MLOps feedback loop (§7.3) in proposals/replacements/7.4-mlops-feedback-loop; or remove. |
+| 7.4 | c, resolved | Abbeel / Covariant / sim-to-real cut from ch07. | Replaced by 7.6 (MLOps feedback loop). Original in `diagrams/_cut/`. |
 | 7.5 | a | None. | No change. |
+| 7.6 | new | — | Placed 2026-10-20 (ch07-06-mlops-feedback-loop). |
+| 7.7 | new | — | Placed 2026-10-20 (ch07-07-mapreduce-failure-handling). |
 
 Rows in the table above for revised (class b) figures were regenerated from their graph JSON; notes about those figures that described the old drawings were removed. Full audit: `_meta/diagram-audit.md`.
 
-## Survivors (5)
+## Survivors (6)
 
 | # | Slug | Nodes | Type | Source claim |
 |---|---|---|---|---|
 | 01 | `ch07-01-generative-design-three-body` | 4 | CLD · 1 reinforcing loop | GM seat bracket: "Engineer intent ↔ AI generation ↔ manufacturing reality" converges on an emergent design (§7.1) |
 | 02 | `ch07-02-oxman-silk-pavilion` | 4 | CLD · 1 reinforcing loop | Oxman's Silk Pavilion coordinates silkworms, computational scaffold, and robotic fabrication (§7.1, Oxman) |
 | 03 | `ch07-03-vqe-hybrid-loop` | 5 | CLD · 1 reinforcing loop (with decoherence constraint) | VQE iterates classical proposal → quantum measurement → classical optimization within coherence time (§7.2, Preskill) |
-| 04 | `ch07-04-covariant-sim-to-real` | 5 | CLD · 1 balancing loop | Covariant warehouse robots: real-world feedback closes the sim-to-real gap toward 99%+ success (§7.3, Abbeel) |
 | 05 | `ch07-05-mlops-production-gap` | 5 (1 latent) | Both · no loop, 3 confounding edges | Chip Huyen's 70% failure pattern: a missing coordination layer confounds model, system, and business drivers (§7.3, Huyen) |
+| 06 | `ch07-06-mlops-feedback-loop` | 4 | CLD · R1 Learning loop | Machine learning in production is a three-body problem: model performance, system reliability and continuous improvement. 'Train, deploy, hope' is the two-body version; feedback loops and retraining close the loop so the model keeps getting better against real use. |
+| 07 | `ch07-07-mapreduce-failure-handling` | 5 | CLD · B1 Failure absorbed | In a cluster of a thousand machines something is always failing. Instead of preventing every failure, MapReduce coordinates with it: the master re-assigns a crashed machine's task to a healthy node, so the whole web can be processed on unreliable parts. |
 
 ## Cut (from candidate set)
 

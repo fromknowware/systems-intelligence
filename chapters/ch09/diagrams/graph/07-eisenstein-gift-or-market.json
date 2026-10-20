@@ -1,9 +1,9 @@
 {
-  "id": "proposal-9.6-eisenstein-gift-or-market",
+  "id": "ch09-07-eisenstein-gift-or-market",
   "title": "Eisenstein: AI as gift economy or market logic",
   "summary": "The same matching technology can enable a gift economy at scale (matching needs with gifts, tracking reciprocity) or amplify market logic (monetising everything and destroying the remaining gift relationships). The resolution is to coordinate markets with the gift economy, not replace one with the other.",
   "fmt": "both",
-  "source": "Ch09 §9.2 — Charles Eisenstein, gift economy (replaces the Menegon mutual-aid figure)",
+  "source": "Ch09 §9.2 — Charles Eisenstein, gift economy",
   "nodes": [
     { "id": "n1", "label": "AI Matching", "description": "Matching needs with gifts, tracking reciprocity", "category": "driver", "is_latent": false },
     { "id": "n3", "label": "Market Logic", "description": "Everything priced and monetised", "category": "mediator", "is_latent": false },

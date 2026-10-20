@@ -1,9 +1,9 @@
 {
-  "id": "proposal-2.4-shannon-channel-coordination",
+  "id": "ch02-07-shannon-channel-coordination",
   "title": "Shannon: sender, channel, receiver",
   "summary": "Communication is a three-body system, not a pipe: noise is a property of the channel, so sender and receiver must encode and decode around it. Structured redundancy (error-correcting codes shaped to the channel) is the coordination architecture that lets communication survive noise, up to the channel's capacity.",
   "fmt": "cld",
-  "source": "Ch02 — 'The Bit as Coordination Quantum' (replaces the Game of Life figure)",
+  "source": "Ch02 — 'The Bit as Coordination Quantum'",
   "nodes": [
     { "id": "n1", "label": "Sender Encoding", "description": "Encoding chosen for this channel", "category": "driver", "is_latent": false },
     { "id": "n2", "label": "Channel Noise", "description": "Bandwidth and noise: the channel's statistical personality", "category": "driver", "is_latent": false },
@@ -21,5 +21,5 @@
   "loops": [
   ],
   "identifiability": "identifiable",
-  "identifiability_note": "Channel capacity C = B log2(1 + S/N) is a measurable limit; redundancy and noise are both observable. Alternative anchor: Von Neumann section (processor, memory, missing context coordination)."
+  "identifiability_note": "Channel capacity C = B log2(1 + S/N) is a measurable limit; redundancy and noise are both observable."
 }

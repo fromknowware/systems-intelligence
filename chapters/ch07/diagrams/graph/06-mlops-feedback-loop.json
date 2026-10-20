@@ -1,9 +1,9 @@
 {
-  "id": "proposal-7.4-mlops-feedback-loop",
+  "id": "ch07-06-mlops-feedback-loop",
   "title": "MLOps: model, system, continuous improvement",
   "summary": "Machine learning in production is a three-body problem: model performance, system reliability and continuous improvement. 'Train, deploy, hope' is the two-body version; feedback loops and retraining close the loop so the model keeps getting better against real use.",
   "fmt": "cld",
-  "source": "Ch07 §7.3 — 'Model Performance / System Reliability / Continuous Improvement' (replaces the Covariant sim-to-real figure)",
+  "source": "Ch07 §7.3 — 'Model Performance / System Reliability / Continuous Improvement'",
   "nodes": [
     { "id": "n1", "label": "Model Performance", "description": "Accuracy, precision, recall", "category": "driver", "is_latent": false },
     { "id": "n2", "label": "System Reliability", "description": "Uptime, latency, scalability", "category": "driver", "is_latent": false },
@@ -20,5 +20,5 @@
     { "type": "reinforcing", "label": "R1 — Learning loop", "nodes": ["n1", "n3", "n4"], "minus_count": 0 }
   ],
   "identifiability": "identifiable",
-  "identifiability_note": "All stages are instrumented in production. Alternative anchor: Dean's MapReduce (see new/7-mapreduce-failure-handling)."
+  "identifiability_note": "All stages are instrumented in production."
 }

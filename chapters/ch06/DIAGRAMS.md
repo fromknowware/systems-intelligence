@@ -1,9 +1,9 @@
 # Chapter 6 — Causal Diagrams
 
 **Chapter:** Consciousness as Pattern Recognition
-**Status:** 5 diagrams authored as arc_engine graph JSONs
+**Status:** 6 diagrams authored as arc_engine graph JSONs
 
-## Audit against the current text (2026-10-19)
+## Audit against the current text (2026-10-19; held figures resolved 2026-10-20)
 
 The text was rewritten on 2026-04-16 (Wiener, Damasio, Mitchell, In-Q-Tel, Penrose, Sheldrake added). The Cut list entries 'Hot-stove', 'paperclip' and the Open question about the safety driver still stand. New unillustrated arguments: see `_meta/diagram-proposals/README.md`.
 
@@ -14,10 +14,11 @@ The text was rewritten on 2026-04-16 (Wiener, Damasio, Mitchell, In-Q-Tel, Penro
 | 6.3 | b | The 'fairness-washing' loop (harm -> training data -> fairness) is not argued. The text: accuracy fix + biased deployment -> more efficient surveillance -> wrongful arrests; third body = coordination with social justice. | Loop removed; Technical Accuracy + Biased Deployment -> Surveillance Efficiency -> Disparate Harm; latent Justice Coordination; regenerated. |
 | 6.4 | b | User Demand -> Extraction flywheel is not argued; text argues externalized costs and minimal accountability. | Loop removed; Human Labor, Externalized Costs, latent Material Accountability added; regenerated. Re-anchored to 'extractive industry' paragraph. |
 | 6.5 | a | None. | No change. |
+| 6.6 | new | — | Placed 2026-10-20 (ch06-06-wiener-anti-aircraft-feedback). |
 
 Rows in the table above for revised (class b) figures were regenerated from their graph JSON; notes about those figures that described the old drawings were removed. Full audit: `_meta/diagram-audit.md`.
 
-## Survivors (5)
+## Survivors (6)
 
 | # | Slug | Nodes | Type | Source claim |
 |---|---|---|---|---|
@@ -26,6 +27,7 @@ Rows in the table above for revised (class b) figures were regenerated from thei
 | 03 | `ch06-03-gebru-injustice-amplification` | 5 (1 latent) | CLD · no loops, 2 confounding | Gebru's justice problem: a technically fair model (the accuracy gap closed) coordinates with biased deployment in over-policed communities, so the improvement makes surveillance more efficient and wrongful arrests more likely. The missing third body is coordination of technical development with social justice and lived experience. |
 | 04 | `ch06-04-crawford-material-stack` | 6 (1 latent) | CLD · no loops, 1 confounding | Every AI system coordinates three material bodies: resource extraction, computational infrastructure and human labor. The output marketed as 'intelligence' externalizes environmental and social costs; with minimal accountability the machines do exactly what they are told while the human and ecological context is devastated. |
 | 05 | `ch06-05-consciousness-coordination` | 4 | CLD · R1 (consciousness loop) | "Consciousness isn't a feature you add. It's an emergent property of coordination architecture." |
+| 06 | `ch06-06-wiener-anti-aircraft-feedback` | 4 | CLD · B1 Cybernetic correction | A gun fired at where the plane was misses again and again. Add feedback, observe the error, adjust, fire again, and the system coordinates with a moving, purposeful target without controlling it. The Uber system lacked exactly this arc closing through awareness. |
 
 ## Cut
 

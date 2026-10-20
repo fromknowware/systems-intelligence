@@ -1,9 +1,9 @@
 {
-  "id": "proposal-4.4-sidewalk-labs-death-spiral",
+  "id": "ch04-07-sidewalk-labs-death-spiral",
   "title": "Sidewalk Labs: coordination death spiral",
   "summary": "Fear travels at internet speed; trust builds at relationship speed. When one body (government, private sector or civil society) retreated, it raised fear and eroded trust among the others, accelerating their retreat. The Quayside project collapsed in 2020: coordination is a living system that has to survive politics, fear and time.",
   "fmt": "both",
-  "source": "Ch04 — 'When Urban Coordination Fails: The Sidewalk Labs Lesson' (replaces the 23andMe figure)",
+  "source": "Ch04 — 'When Urban Coordination Fails: The Sidewalk Labs Lesson'",
   "nodes": [
     { "id": "n1", "label": "Public Fear", "description": "Fear that spreads at internet speed", "category": "driver", "is_latent": false },
     { "id": "n2", "label": "Body Retreat", "description": "One of government, private sector or civil society pulls back", "category": "mediator", "is_latent": false },
@@ -22,5 +22,5 @@
     { "type": "reinforcing", "label": "R1 — Coordination death spiral", "nodes": ["n1", "n2", "n3"], "minus_count": 2 }
   ],
   "identifiability": "not_identifiable",
-  "identifiability_note": "Alternative anchor in the same chapter: Taleb's antifragility triad (system, stressor, feedback/learning). Single-case evidence; the counterfactual Quayside with coordination built for turbulence cannot be observed."
+  "identifiability_note": "Single-case evidence; the counterfactual Quayside with coordination built for turbulence cannot be observed."
 }

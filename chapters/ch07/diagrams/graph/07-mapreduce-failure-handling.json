@@ -1,5 +1,5 @@
 {
-  "id": "proposal-7-mapreduce-failure-handling",
+  "id": "ch07-07-mapreduce-failure-handling",
   "title": "Dean's MapReduce: coordinate with failure",
   "summary": "In a cluster of a thousand machines something is always failing. Instead of preventing every failure, MapReduce coordinates with it: the master re-assigns a crashed machine's task to a healthy node, so the whole web can be processed on unreliable parts.",
   "fmt": "cld",
