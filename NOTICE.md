@@ -17,6 +17,12 @@ person's name, voice or likeness, and the license covers only the author's own t
 reuse a voice passage, keep its synthesis note with it. The people named can ask for a
 correction or removal at https://knowware.systems/corrections.
 
+## AI, search and training
+
+Reading, search and retrieval, including AI assistants that answer from the book with credit and a link, are welcome. Training or fine-tuning a model for non-commercial research is welcome on the terms of CC BY-NC-SA 4.0: credit, non-commercial, share-alike. Training a commercial model is a commercial use of the text and needs a written agreement: hello@knowware.systems.
+
+The website states this in machine-readable form (robots.txt Content-Signal and crawler blocks, and a text-and-data-mining reservation at https://knowware.systems/.well-known/tdmrep.json). These are requests, not a technical lock, and the law differs by country; this repository is public. See https://knowware.systems/license.
+
 ## Third-party material in this repository
 
 These files are copies kept as research references. They are **not** covered by the licenses
