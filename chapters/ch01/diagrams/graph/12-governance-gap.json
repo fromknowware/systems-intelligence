@@ -1,9 +1,9 @@
 {
-  "id": "proposal-X.5-governance-gap-ch01",
+  "id": "12-governance-gap",
   "title": "Meta-crisis: capability outruns governance",
   "summary": "Capabilities grow exponentially; governance evolves linearly. The space between the curves is the catastrophe corridor. A new coordination architecture capable of governing exponential technology is what narrows it.",
   "fmt": "cld",
-  "source": "Ch01 — Schmachtenberger, the meta-crisis (re-homes the Verdon acceleration-gap figure from ChX)",
+  "source": "Ch01 — Schmachtenberger, the meta-crisis",
   "nodes": [
     { "id": "n1", "label": "Capability Growth", "description": "Exponential: AI, climate, pandemics, weapons", "category": "driver", "is_latent": false },
     { "id": "n2", "label": "Governance Capacity", "description": "Evolves linearly", "category": "driver", "is_latent": false },
@@ -21,5 +21,5 @@
   "loops": [
   ],
   "identifiability": "not_identifiable",
-  "identifiability_note": "Single trajectory; the uncoordinated counterfactual is not observable. The original ChX graph had a gap-to-bridge balancing loop that the ch01 text does not argue; it is dropped here."
+  "identifiability_note": "Single trajectory; the uncoordinated counterfactual is not observable. No loop from the gap to coordination architecture is drawn because the text does not argue one."
 }

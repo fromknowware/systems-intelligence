@@ -1,5 +1,5 @@
 {
-  "id": "proposal-6-wiener-anti-aircraft-feedback",
+  "id": "ch06-06-wiener-anti-aircraft-feedback",
   "title": "Wiener's predictor: feedback is the third body",
   "summary": "A gun fired at where the plane was misses again and again. Add feedback, observe the error, adjust, fire again, and the system coordinates with a moving, purposeful target without controlling it. The Uber system lacked exactly this arc closing through awareness.",
   "fmt": "cld",

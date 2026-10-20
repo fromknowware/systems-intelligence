@@ -1,9 +1,9 @@
 {
-  "id": "proposal-1.8-multipolar-trap",
+  "id": "11-multipolar-trap",
   "title": "Multipolar trap: capability race without coordination",
   "summary": "Every lab, government and company makes a locally rational choice: if we slow down, a competitor will not. Each choice raises the pressure on the others, and the collective result is capability racing ahead of safety and governance. Individual virtue cannot beat these incentives; only a coordination architecture that makes cooperation rational for every actor can.",
   "fmt": "both",
-  "source": "Ch01 — Schmachtenberger, the multipolar trap (replaces the Burning Man figure)",
+  "source": "Ch01 — Schmachtenberger, the multipolar trap",
   "nodes": [
     { "id": "n1", "label": "Competitive Pressure", "description": "Fear that a rival will deploy, regulate or capture the market first", "category": "driver", "is_latent": false },
     { "id": "n2", "label": "Locally Rational Choice", "description": "Each actor skips safety or governance to keep pace", "category": "mediator", "is_latent": false },
@@ -23,5 +23,5 @@
     { "type": "reinforcing", "label": "R1 — Multipolar trap", "nodes": ["n1", "n2", "n3"], "minus_count": 0 }
   ],
   "identifiability": "not_identifiable",
-  "identifiability_note": "The coordination architecture (n5) has never been observed at civilizational scale. NOTE for the author: the text states the trap and its result; the loop closure (race raises pressure) is the standard reading of 'Nobody chose it. Everybody's in it.' and may want one sentence to anchor it."
+  "identifiability_note": "The coordination architecture (n5) has never been observed at civilizational scale. The text states the trap and its result; the loop closure (a faster race raises everyone else's pressure) is the standard reading of 'Nobody chose it. Everybody's in it.'"
 }

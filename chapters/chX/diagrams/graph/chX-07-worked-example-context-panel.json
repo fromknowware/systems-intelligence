@@ -1,9 +1,9 @@
 {
-  "id": "proposal-X.3-worked-example-context-panel",
+  "id": "chX-07-worked-example-context-panel",
   "title": "Worked example: the missing context panel",
   "summary": "An excellent AI tool stalled at 11% adoption: the tool spoke, the user decided, and context was invisible to both. A context panel showing what information was available, what was missing and how confident the tool was made the third body legible. Adoption on that team reached 74% in three weeks; nothing about the tool or the users changed.",
   "fmt": "both",
-  "source": "ChX — 'A Worked Example' (replaces the Blueprint figure)",
+  "source": "ChX — 'A Worked Example'",
   "nodes": [
     { "id": "n1", "label": "AI Tool Output", "description": "Excellent accuracy, arriving decoupled from the work", "category": "driver", "is_latent": false },
     { "id": "n3", "label": "Shared Context Interface", "description": "Panel showing available information, gaps and confidence", "category": "mediator", "is_latent": false },

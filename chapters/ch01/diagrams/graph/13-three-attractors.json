@@ -1,9 +1,9 @@
 {
-  "id": "proposal-X.6-three-attractors-ch01",
+  "id": "13-three-attractors",
   "title": "Three attractors: chaos, lock-in, coordination",
   "summary": "On the current trajectory the capability race ends in one of two catastrophic attractors: multipolar chaos, where the arms race produces civilisational harm, or totalitarian lock-in, where one actor wins and establishes permanent control. The third attractor is a coordination architecture that governs exponential technology while preserving human agency and diversity.",
   "fmt": "cld",
-  "source": "Ch01 — Schmachtenberger, the three attractors (re-homes the AGI-alignment fork from ChX; alternatively Tegmark's scenarios in ch08)",
+  "source": "Ch01 — Schmachtenberger, the three attractors",
   "nodes": [
     { "id": "n1", "label": "Capability Race", "description": "Arms race in exponential technology", "category": "driver", "is_latent": false },
     { "id": "n2", "label": "Multipolar Chaos", "description": "Race produces civilisation-scale harm", "category": "mediator", "is_latent": false },
@@ -23,5 +23,5 @@
   "loops": [
   ],
   "identifiability": "not_identifiable",
-  "identifiability_note": "Scenario analysis, not an empirical DAG. The original ChX graph's unclosed balancing loop is dropped."
+  "identifiability_note": "Scenario analysis, not an empirical DAG. No feedback loop is drawn because the text does not argue one."
 }

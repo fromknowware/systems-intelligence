@@ -1,9 +1,9 @@
 # Chapter 3 — Causal Diagrams
 
 **Chapter:** Architecture of Systems Intelligence
-**Status:** 6 diagrams authored as arc_engine graph JSONs
+**Status:** 8 diagrams authored as arc_engine graph JSONs
 
-## Audit against the current text (2026-10-19)
+## Audit against the current text (2026-10-19; held figures resolved 2026-10-20)
 
 The text was rewritten on 2026-04-16 (Feynman, Gosling, Delangue, McGilchrist, Capra, Kurzweil added). New unillustrated arguments are listed in `_meta/diagram-proposals/README.md`.
 
@@ -15,10 +15,12 @@ The text was rewritten on 2026-04-16 (Feynman, Gosling, Delangue, McGilchrist, C
 | 3.4 | a | None. | No change. |
 | 3.5 | a | Nit: 'Evolutionary Signal' vs text 'Evolutionary Information'. | No change. |
 | 3.6 | a | None. | No change. |
+| 3.7 | new | — | Placed 2026-10-20 (ch03-07-mcgilchrist-three-part-loop). |
+| 3.8 | new | — | Placed 2026-10-20 (ch03-08-kurzweil-singularity-merger). |
 
 Rows in the table above for revised (class b) figures were regenerated from their graph JSON; notes about those figures that described the old drawings were removed. Full audit: `_meta/diagram-audit.md`.
 
-## Survivors (6)
+## Survivors (8)
 
 | # | Slug | Nodes | Type | Source claim |
 |---|---|---|---|---|
@@ -28,6 +30,8 @@ Rows in the table above for revised (class b) figures were regenerated from thei
 | 04 | `04-alphago-three-networks` | 5 | CLD · 2 reinforcing loops | "Policy Network · Value Network · Monte Carlo Tree Search" (AlphaGo / Move 37) |
 | 05 | `05-alphafold-coordination` | 5 | DAG · no loops, identifiable | "Evolutionary Information · Physical Constraints · Attention Architecture" (AlphaFold) |
 | 06 | `06-two-body-brittleness` | 6 (1 latent) | DAG · 2 confounding | "When Two Bodies Aren't Enough" — MYCIN, industrial robots, supervised learning, bureaucracy |
+| 07 | `ch03-07-mcgilchrist-three-part-loop` | 5 (1 latent) | BOTH · R1 Experience-representation-reintegration, 1 confounding | Right-hemisphere experience is re-presented by the left hemisphere in a form that can be used, then must be returned to the right hemisphere to be checked against reality. When that loop breaks, confident models go unchecked and the Emissary usurps the Master: confabulation in split-brain patients, hallucination in AI. |
+| 08 | `ch03-08-kurzweil-singularity-merger` | 5 (1 latent) | BOTH · no loops, 2 confounding | Biological intelligence (consciousness, creativity, values), artificial intelligence (scale, speed, memory, logical consistency) and neural integration (the interfaces that let them coordinate seamlessly) form a three-body system. Coordinated, the merger expands human capability while preserving consciousness, values and identity; whether it serves human flourishing depends on the coordination architecture we build around it. |
 
 ## Cut
 

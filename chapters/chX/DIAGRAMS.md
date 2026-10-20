@@ -1,35 +1,34 @@
 # Chapter X — Causal Diagrams
 
 **Chapter:** The Grand Coordination — Synthesis and Transcendence (capstone)
-**Status:** 6 diagrams authored as arc_engine graph JSONs
+**Status:** 3 diagrams authored as arc_engine graph JSONs
 
 This is the book's capstone, so the diagram count runs slightly above the 3–5 ceiling we hold to in earlier chapters. Each diagram had to carry a structure that was *not* already rendered in Ch01–Ch09.
 
-## Audit against the current text (2026-10-19)
+## Audit against the current text (2026-10-19; held figures resolved 2026-10-20)
 
 The chapter was rewritten on 2026-04-17; none of #02-#06's subjects (Kurzweil, Blueprint, Ostrom, Verdon, AGI Prepper) appears in it. Notes and Open questions below describe the held drawings.
 
 | Fig | Class | What was stale | Fix |
 |---|---|---|---|
 | X.1 | b | Summary said knowware is 'an emergent third'; text says it is not a third thing added but the awareness of the relationship. Node 'Coordination Layer'. | Summary reworded; node renamed Conscious Coordination; regenerated. |
-| X.2 | c | No Kurzweil in the rewritten capstone. The graph matches the Kurzweil paragraph in ch03 ('three bodies of transcendence'). | Held. Proposal: re-home to ch03 (no redraw needed), or redraw around chX 'knowware in action', or remove. |
-| X.3 | c | No Blueprint / Bryan Johnson in chX. | Held. Proposed redraw: the capstone's worked example (context panel) in proposals/replacements/X.3-worked-example-context-panel; or remove. |
-| X.4 | c | No Ostrom / commons in chX. (Existing graph also has a parity error: R1 declares m=2, 0 negatives.) | Held. Proposed redraw: the book's three triads in proposals/replacements/X.4-three-triads; or remove. |
-| X.5 | c | No Verdon in chX; the graph matches Schmachtenberger's meta-crisis passage in ch01. | Held. Proposal: re-home to ch01 with renames (proposals/replacements/X.5-governance-gap-ch01), or remove. |
-| X.6 | c | No AGI-prepper scenarios in chX. (Existing graph also has an unclosed B1 loop.) | Held. Proposal: re-home to ch01 as the three attractors (proposals/replacements/X.6-three-attractors-ch01) or to ch08 (Tegmark scenarios), or remove. |
+| X.2 | c, resolved | No Kurzweil in the rewritten capstone. The graph matches the Kurzweil paragraph in ch03 ('three bodies of transcendence'). | Re-homed to ch03 as 3.8 (redrawn: Neural Integration, Transcendence, latent Coordination Architecture). Original in `diagrams/_cut/`. |
+| X.3 | c, resolved | No Blueprint / Bryan Johnson in chX. | Replaced by X.7 (the worked example). Original in `diagrams/_cut/`. |
+| X.4 | c, resolved | No Ostrom / commons in chX. (Existing graph also has a parity error: R1 declares m=2, 0 negatives.) | Replaced by X.8 (the book as a coordination system). Original in `diagrams/_cut/`. |
+| X.5 | c, resolved | No Verdon in chX; the graph matches Schmachtenberger's meta-crisis passage in ch01. | Re-homed to ch01 as 1.10 (meta-crisis). Original in `diagrams/_cut/`. |
+| X.6 | c, resolved | No AGI-prepper scenarios in chX. (Existing graph also has an unclosed B1 loop.) | Re-homed to ch01 as 1.11 (three attractors). Original in `diagrams/_cut/`. |
+| X.7 | new | — | Placed 2026-10-20 (chX-07-worked-example-context-panel). |
+| X.8 | new | — | Placed 2026-10-20 (chX-08-three-triads). |
 
 Rows in the table above for revised (class b) figures were regenerated from their graph JSON; notes about those figures that described the old drawings were removed. Full audit: `_meta/diagram-audit.md`.
 
-## Survivors (6)
+## Survivors (3)
 
 | # | Slug | Nodes | Type | Source claim |
 |---|---|---|---|---|
 | 01 | `chX-01-three-ware-resolution` | 4 | CLD · R1 Knowware self-lift, R2 Pattern evolution | Hardware (substrate) and software (pattern) coordinate consciously; what emerges is knowware, not a third thing added to the first two but the awareness that arises when hardware running software reflects on its own coordination. That awareness feeds back into both. |
-| 02 | `chX-02-kurzweil-singularity-merger` | 5 | CLD · 2 reinforcing loops | 10.01 Kurzweil — biology + AI + neural interface → hybrid consciousness + recursive self-improvement |
-| 03 | `chX-03-blueprint-optimization-loop` | 5 | CLD · 1 reinforcing loop | 10.02 Bryan Johnson — biology→biomarkers→AI→intervention→biology, biological age as outcome |
-| 04 | `chX-04-commons-governance-triad` | 4 | CLD · B1 tragedy + R1 stewardship | 10.06 Commons builder / Ostrom — governance as the third body that converts tragedy into abundance |
-| 05 | `chX-05-acceleration-gap` | 5 | CLD · 1 balancing loop | 10.08 Verdon — tech vs human adaptation gap, coordination bridge as the closer |
-| 06 | `chX-06-agi-alignment-scenarios` | 6 (1 latent) | DAG + CLD · B1 alignment-vs-concentration | 10.09 AGI Prepper — capability / readiness / alignment determining the extinction / tyranny / flourishing fork |
+| 07 | `chX-07-worked-example-context-panel` | 5 (1 latent) | BOTH · no loops, 2 confounding | An excellent AI tool stalled at 11% adoption: the tool spoke, the user decided, and context was invisible to both. A context panel showing what information was available, what was missing and how confident the tool was made the third body legible. Adoption on that team reached 74% in three weeks; nothing about the tool or the users changed. |
+| 08 | `chX-08-three-triads` | 4 | CLD · no loops | Foundation provides the physics, Application provides the proof, Transcendence provides the stakes. Remove any triad and the book collapses; together they produce a way of seeing that changes how you act, which is the claim the book itself makes about coordination. |
 
 ## Cut (candidates that didn't earn a slot)
 

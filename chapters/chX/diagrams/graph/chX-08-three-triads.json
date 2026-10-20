@@ -1,9 +1,9 @@
 {
-  "id": "proposal-X.4-three-triads",
+  "id": "chX-08-three-triads",
   "title": "The book as a coordination system",
   "summary": "Foundation provides the physics, Application provides the proof, Transcendence provides the stakes. Remove any triad and the book collapses; together they produce a way of seeing that changes how you act, which is the claim the book itself makes about coordination.",
   "fmt": "cld",
-  "source": "ChX — 'The Nine Chapters as a Coordination System' (replaces the Ostrom commons figure)",
+  "source": "ChX — 'The Nine Chapters as a Coordination System'",
   "nodes": [
     { "id": "n1", "label": "Foundation Triad", "description": "Chapters 1-3: the physics of coordination", "category": "driver", "is_latent": false },
     { "id": "n2", "label": "Application Triad", "description": "Chapters 4-6: the proof under real conditions", "category": "driver", "is_latent": false },

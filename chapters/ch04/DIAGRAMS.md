@@ -3,7 +3,7 @@
 **Chapter:** Systems Intelligence in Action — Ternary Coordination Case Studies
 **Status:** 🟢 6 diagrams authored as arc_engine graph JSONs
 
-## Audit against the current text (2026-10-19)
+## Audit against the current text (2026-10-19; held figures resolved 2026-10-20)
 
 Cut list: Raschke and 'failed smart cities' still stand. 'Sidewalk Labs' and Taleb are argued in the chapter without a figure and are offered as replacements for the held #04 23andMe figure.
 
@@ -12,9 +12,10 @@ Cut list: Raschke and 'failed smart cities' still stand. 'Sidewalk Labs' and Tal
 | 4.1 | a | None. | No change. |
 | 4.2 | a | None. | No change. |
 | 4.3 | a | Nit: latent 'Coordination Wisdom' is generic; the text names trust, liability and reimbursement. | No change. |
-| 4.4 | c | 23andMe / Wojcicki no longer in ch04. | Held. Proposed redraw: Sidewalk Labs coordination death spiral in proposals/replacements/4.4-sidewalk-labs-death-spiral (alt: Taleb antifragility); or remove. |
+| 4.4 | c, resolved | 23andMe / Wojcicki no longer in ch04. | Replaced by 4.7 (Sidewalk Labs death spiral). Original in `diagrams/_cut/`. |
 | 4.5 | b | Node 'Systemic Leverage' does not appear in the text. The text: rational models create opaque instruments, herding drives adoption and mispricing, weak structure amplifies shocks. | Mediator is now Opaque Instruments with an instruments<->herding R loop; Market Structure -> Coordination Failure; regenerated. Re-anchored to the 'destructive feedback loop' paragraph. |
 | 4.6 | b | Loop was balancing; the text argues a virtuous (reinforcing) cycle (meaning and lower stress -> immunity -> recovery -> emotional work). | Nodes now Emotional Healing / Spiritual Transformation as in the text; all-positive R1 loop; regenerated. |
+| 4.7 | new | — | Placed 2026-10-20 (ch04-07-sidewalk-labs-death-spiral). |
 
 Rows in the table above for revised (class b) figures were regenerated from their graph JSON; notes about those figures that described the old drawings were removed. Full audit: `_meta/diagram-audit.md`.
 
@@ -25,9 +26,9 @@ Rows in the table above for revised (class b) figures were regenerated from thei
 | 01 | `01-bogota-urban-coordination`        | 4          | CLD · 1 reinforcing loop         | "Political Vision ←→ Citizen Behavior ←→ Infrastructure Systems… emergent city intelligence" |
 | 02 | `02-copenhagen-wheel-coordination`    | 5          | CLD · 1 balancing loop           | "Rider effort ←→ Terrain data ←→ Motor assistance… coordination creates an experience that feels like the bike understands you" |
 | 03 | `03-medical-ai-three-body`            | 6 (1 latent) | DAG+CLD · no loops, 2 confounding | "AI coordinating with doctors coordinating with patients to create care that's both more effective and more human" |
-| 04 | `04-23andme-genomic-coordination`     | 4          | CLD · 1 reinforcing loop         | "Coordinating individual curiosity with scientific discovery with medical advancement" |
 | 05 | `05-adaptive-markets-2008-collapse`   | 5 | CLD · R1 Herding-instrument bubble | Lo's three-body market frame applied to 2008: rational models created complex, opaque instruments; herding drove their adoption and mispricing; fragile market structure amplified the shock. The three coordinated destructively into systemic collapse. |
 | 06 | `06-pni-healing-coordination`         | 5 | CLD · R1 Virtuous healing cycle | Myss's healing frame grounded in psychoneuroimmunology: physical treatment, emotional healing and spiritual transformation coordinate through immune function. Meaning and lower stress strengthen immunity, which supports recovery, which in turn supports emotional work: a virtuous cycle that chronic stress runs in reverse. |
+| 07 | `ch04-07-sidewalk-labs-death-spiral` | 5 (1 latent) | BOTH · R1 Coordination death spiral, 1 confounding | Fear travels at internet speed; trust builds at relationship speed. When one body (government, private sector or civil society) retreated, it raised fear and eroded trust among the others, accelerating their retreat. The Quayside project collapsed in 2020: coordination is a living system that has to survive politics, fear and time. |
 
 ## Cut
 
