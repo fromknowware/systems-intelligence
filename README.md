@@ -5,7 +5,7 @@
 
 Companion repository for the book **Systems of Intelligence** by Khayyam Wakil — a book about why every coordination failure of our era (Facebook's contagion experiment, the Uber AV, the 2008 crash, Boeing's MCAS) shares the same architecture, and what the fix looks like.
 
-Website: **[systemsofintelligence.com](https://systemsofintelligence.com)** · Contact: someone@systemsofintelligence.com
+Website: **[knowware.systems](https://knowware.systems)** · Contact: hello@knowware.systems
 
 ---
 
@@ -133,7 +133,7 @@ Book content © Khayyam Wakil. All rights reserved.
 
 Repo tooling (scripts, schemas, viewer) provided as-is for reference.
 
-For collaboration, speaking, or coordination revolution correspondence: **someone@systemsofintelligence.com**
+For collaboration, speaking, or coordination revolution correspondence: **hello@knowware.systems**
 
 ---
 

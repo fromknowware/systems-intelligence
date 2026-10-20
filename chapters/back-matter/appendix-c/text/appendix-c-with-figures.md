@@ -2995,7 +2995,7 @@ This appendix provides a comprehensive guide to resources for expanding your coo
 
 ### Official Resources
 
-**Website: systemsofintelligence.com** (Coming Soon)
+**Website: knowware.systems** (Coming Soon)
 
 - Coordination resources and tools
 
@@ -3010,7 +3010,7 @@ This appendix provides a comprehensive guide to resources for expanding your coo
 
 
 
-**Contact: someone@systemsofintelligence.com**
+**Contact: hello@knowware.systems**
 
 - Questions and feedback
 
@@ -3479,7 +3479,7 @@ This appendix provides a comprehensive guide to resources for expanding your coo
 
 
 
-*Note: Certification program under development at systemsofintelligence.com*
+*Note: Certification program under development at knowware.systems*
 
 ---
 
@@ -3931,7 +3931,7 @@ This appendix is a starting point, not an endpoint.
 
 **Stay current:**
 
-- Visit systemsofintelligence.com for updated resources
+- Visit knowware.systems for updated resources
 
 
 - Join the community for shared discoveries
@@ -4260,6 +4260,6 @@ The best next resource is the one that coordinates with:
 
 *For the latest resources, community updates, and coordination opportunities:*
 
-**systemsofintelligence.com**
+**knowware.systems**
 
 **The coordination revolution awaits.**

@@ -234,6 +234,6 @@ The coordination continues.
 
 ---
 
-*For appendices, resources, and continued learning: systemsofintelligence.com*
+*For appendices, resources, and continued learning: knowware.systems*
 
-*To join the coordination revolution: someone@systemsofintelligence.com*
+*To join the coordination revolution: hello@knowware.systems*
