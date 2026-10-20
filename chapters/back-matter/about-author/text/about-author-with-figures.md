@@ -315,9 +315,9 @@ Not human OR AI, but human ←→ AI ←→ context creating hybrid capabilities
 
 
 
-**Email:** someone@systemsofintelligence.com
+**Email:** hello@knowware.systems
 
-**Website:** systemsofintelligence.com (launching with book)
+**Website:** knowware.systems (launching with book)
 
 **Social:**
 
@@ -403,7 +403,7 @@ Not human OR AI, but human ←→ AI ←→ context creating hybrid capabilities
 
 
 
-**Contact for speaking:** someone@systemsofintelligence.com
+**Contact for speaking:** hello@knowware.systems
 
 ## The Coordination Continues
 

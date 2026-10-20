@@ -82,8 +82,8 @@ By Khayyam Wakil
 ## 📧 CONTACT
 
 **Author:** Khayyam Wakil
-**Email:** someone@systemsofintelligence.com
-**Website:** systemsofintelligence.com
+**Email:** hello@knowware.systems
+**Website:** knowware.systems
 **Company:** Systems of Intelligence
 
 ---

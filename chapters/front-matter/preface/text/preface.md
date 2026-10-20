@@ -45,7 +45,7 @@ Not as abstract theory, but as a practical framework you can use tomorrow in you
 - Each voice as a complete timecoded dialogue, 42+ minutes long
 
 
-- Hosted at [systemsofintelligence.com](https://systemsofintelligence.com) — linkable, searchable, referenceable per voice
+- Hosted in the book's public repository at [github.com/fromknowware/systems-intelligence](https://github.com/fromknowware/systems-intelligence) — linkable, searchable, referenceable per voice
 
 
 - The deep-dive layer: follow any voice beyond where the chapter had room to go
@@ -503,7 +503,7 @@ November 2025
 
 ---
 
-**P.S.** — If you finish this book and want to coordinate with me or the growing community of coordination thinkers, reach out to **someone [at] systemsofintelligence [dot] com**.
-**https://systemsofintelligence.com**
+**P.S.** — If you finish this book and want to coordinate with me or the growing community of coordination thinkers, reach out to **hello [at] knowware [dot] systems**.
+**https://knowware.systems**
 
 **The coordination continues through you.**
