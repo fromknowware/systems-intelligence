@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use or share this work, please cite it as below and keep the license notice."
+type: book
+title: "Knowware: Systems of Intelligence"
+abstract: "A book about the layer of knowing between people and machines: what the work is for, what the context is, and who answers for the result."
+authors:
+  - family-names: Wakil
+    given-names: Khayyam
+publisher:
+  name: The ARC Institute of Knowware
+version: "Edition 01 (working text)"
+year: 2026
+license: CC-BY-NC-SA-4.0
+url: "https://knowware.systems"
+repository-code: "https://github.com/fromknowware/systems-intelligence"

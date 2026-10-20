@@ -129,11 +129,15 @@ The two must stay in sync. Every prose edit touches both.
 
 ## License & contact
 
-Book content © Khayyam Wakil. All rights reserved.
+**The book** (chapter text, front and back matter, and the diagrams in `chapters/*/diagrams/`) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE) (CC BY-NC-SA 4.0). Read it, share it, quote it, teach with it and adapt it for non-commercial purposes, with credit, and share what you make under the same license. Selling it, or putting it inside something you sell, needs a separate agreement. What that means for libraries and universities is at [knowware.systems/license](https://knowware.systems/license).
 
-Repo tooling (scripts, schemas, viewer) provided as-is for reference.
+**Code** (the viewer, scripts and the diagram renderer) is [MIT](LICENSE-CODE).
 
-For collaboration, speaking, or coordination revolution correspondence: **hello@knowware.systems**
+**Not licensed:** the Knowware name, cover and logos, and the layout of the official print and digital editions. The 81 voices are synthesized from each person's published work. They are not quotes, and no license here grants rights in anyone's name or likeness; if you reuse a voice passage, keep its synthesis note with it. Third-party files in this repository are listed in [NOTICE.md](NOTICE.md).
+
+**Cite as:** see [CITATION.cff](CITATION.cff).
+
+For permissions, institutional licensing, collaboration or correspondence: **hello@knowware.systems**
 
 ---
 
