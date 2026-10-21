@@ -135,6 +135,8 @@ The two must stay in sync. Every prose edit touches both.
 
 **Not licensed:** the Knowware name, cover and logos, and the layout of the official print and digital editions. The 81 voices are synthesized from each person's published work. They are not quotes, and no license here grants rights in anyone's name or likeness; if you reuse a voice passage, keep its synthesis note with it. Third-party files in this repository are listed in [NOTICE.md](NOTICE.md).
 
+**AI and training:** reading, search and retrieval with credit are welcome; non-commercial research training is welcome on the license terms; training a commercial model needs a written agreement. See [NOTICE.md](NOTICE.md).
+
 **Cite as:** see [CITATION.cff](CITATION.cff).
 
 For permissions, institutional licensing, collaboration or correspondence: **hello@knowware.systems**
