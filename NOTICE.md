@@ -19,9 +19,9 @@ correction or removal at https://knowware.systems/corrections.
 
 ## AI, search and training
 
-Reading, search and retrieval, including AI assistants that answer from the book with credit and a link, are welcome. Training or fine-tuning a model for non-commercial research is welcome on the terms of CC BY-NC-SA 4.0: credit, non-commercial, share-alike. Training a commercial model is a commercial use of the text and needs a written agreement: hello@knowware.systems.
+The book's public surface (the website's pages, the free chapter previews, the stories and the agents page) is open to crawlers, search and AI systems, training included, with credit and a link where you can give them. That is an additional permission from the author, beyond the license. The full chapters are for signed-up readers on the website. Training a commercial model on the full text needs a written agreement: hello@knowware.systems. Training or fine-tuning on it for non-commercial research is welcome on the terms of CC BY-NC-SA 4.0: credit, non-commercial, share-alike.
 
-The website states this in machine-readable form (robots.txt Content-Signal and crawler blocks, and a text-and-data-mining reservation at https://knowware.systems/.well-known/tdmrep.json). These are requests, not a technical lock, and the law differs by country; this repository is public. See https://knowware.systems/license.
+This repository is public, so these are statements of terms rather than a technical lock, and the law differs by country. See https://knowware.systems/license.
 
 ## Third-party material in this repository
 
